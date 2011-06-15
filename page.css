@@ -1,0 +1,88 @@
+h1 {
+  font-size: 180%;
+  font-family: Arial, sans-serif;
+  color:#333366;
+}
+h2 {
+  font-size: 150%;
+  font-family: Arial, sans-serif; 
+}
+h3 {
+  font-size: 130%;
+  font-family: Arial, sans-serif; 
+  font-weight: bold;
+  color: #003366; 
+}
+h4 {
+  font-size: 100%;
+  font-family: Arial, sans-serif; 
+  font-weight: bold;
+}
+a:hover {color: #003399;}
+
+a.uqbreadcrumblink:hover {
+    color: white;
+}
+a.uqnavigationlink:link {
+    color: #000000;
+}
+a.uqnavigationlink:hover {
+    color: #003399;
+}
+
+/* removed till i fix it :(
+img {
+  vertical-align: text-top;
+}
+*/
+
+/* *JK: RT#29736*/
+p {
+  font-family: Arial, sans-serif;
+}
+td {
+  font-family: Arial, sans-serif;
+  font-size: 75%;
+}
+ul {
+  font-family: Arial, sans-serif;
+  font-size: 75%;
+}
+li {
+  font-family: Arial, sans-serif;
+  font-size: 75%;
+}
+dt {
+  font-family: Arial, sans-serif;
+  font-size: 75%;
+}
+dd {
+  font-family: Arial, sans-serif;
+  font-size: 75%;
+}
+
+
+.contentTitle {
+  font-size: 150%; 
+  font-family: Arial, sans-serif; 
+  font-weight: bold; 
+  color:#333366;
+}
+.contentSubTitle {
+  font-size: 120%; 
+  font-family: Arial, sans-serif; 
+  font-weight: bold;
+  color: #003366; 
+}
+.footerText {
+  font-family: Arial, sans-serif;
+  font-size: 75%;
+  color: #999999;
+}
+a.footerLink {
+  font-family: Arial, sans-serif;
+  font-size: 75%;
+  color: #999999;
+}
+
+a.uqfooterlink:hover {color: #666666;}
