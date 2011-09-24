@@ -2,6 +2,8 @@
 
 @comment{{Command line: /usr/bin/bib2bib -oc robbycites -ob robby.bib -c author:"McKilliam" bib.bib}}
 
+@string{dasp = {Defence App. Sig. Proc.}}
+
 @string{ieeetit = {IEEE Trans. Inform. Theory}}
 
 @string{ieeetsp = {IEEE Trans. Sig. Process.}}
@@ -16,13 +18,29 @@
   month = {Mar.}
 }
 
+@inproceedings{Quinn_snpe_dasp_2011,
+  author = {B. G. Quinn and I. V. L. Clarkson and R. G. McKilliam},
+  title = {Estimating period from sparse, noisy timing data},
+  year = 2011,
+  booktitle = dasp,
+  month = {July}
+}
+
+@inproceedings{McKilliam_direstcro_dasp_2011,
+  author = {R. G. McKilliam and B. G. Quinn},
+  title = {Estimating the circular mean from correlated observations},
+  year = 2011,
+  booktitle = dasp,
+  month = {July}
+}
+
 @article{McKilliam_polyphase_est_icassp_2011,
   author = {R. G. McKilliam and B. G. Quinn and I. V. L. Clarkson and B. Moran},
   journal = procicassp,
   title = {The asymptotic properties of polynomial phase estimation by least squares phase unwrapping},
   year = 2011,
   month = {May},
-  pages = {3592 - 3595},
+  pages = {3592-3595},
   doi = {10.1109/ICASSP.2011.5946255},
   issn = {1520-6149}
 }
