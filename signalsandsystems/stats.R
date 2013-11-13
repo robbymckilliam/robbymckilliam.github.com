@@ -12,7 +12,7 @@ lines(density(midsemmarks,bw="SJ"))
 
 pracmarks <- na.omit(marksdata$Practical.assignment)
 hist(pracmarks,breaks=0:21-0.5,prob=TRUE,xlab="Marks",main=sprintf("Practical assignment \n # of students %i,  mean %.2f, median %.0f, stdev %.2f",length(pracmarks), mean(pracmarks), median(pracmarks), sd(pracmarks)))
-#lines(density(pracmarks,bw="SJ"))
+lines(density(pracmarks,adjust=1.3))
 
 dev.off()
 
