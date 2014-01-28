@@ -37,10 +37,16 @@ Robby McKilliam is a post doc at the Institute for Telecommunications Research a
 </table>
 <br>
 
+
+<?php
+$Frefcounter = 1;
+?>
 <b>Thesis </b>
 <table cellpadding="4" cellspacing="0" width="600" >
-<td class="bibtexitem">
-		R.&nbsp;G. McKilliam.
+<tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>
+R.&nbsp;G. McKilliam.
   <em>Lattice theory, circular statistics and polynomial phase
   signals</em>.
   PhD thesis, University of Queensland, Australia, December 2010.
@@ -48,14 +54,16 @@ Robby McKilliam is a post doc at the Institute for Telecommunications Research a
 	</td>
 	</tr>
 </table>
+
 <br>
 
-
 <b>Journal Papers </b>
+
 <table cellpadding="4" cellspacing="0" width="600" >
 
 <tr valign="top">
-<td class="bibtexitem">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>
 R.&nbsp;G. McKilliam, A.&nbsp;Pollok, and B.&nbsp;Cowley.
  Time offset estimation using pilots and data.
  accepted to <em>IEEE Transactions on Communications</em>, Jan. 2014.
@@ -65,6 +73,7 @@ R.&nbsp;G. McKilliam, A.&nbsp;Pollok, and B.&nbsp;Cowley.
 
 
 <tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 <td class="bibtexitem">
 R.&nbsp;G. McKilliam and A.&nbsp;Pollok.
  On the Cram&eacute;r-Rao bound for polynomial phase signals. <em>Signal Processing</em>, 95:27-31, Feb. 2014. 
@@ -73,6 +82,7 @@ R.&nbsp;G. McKilliam and A.&nbsp;Pollok.
 </tr>
 
 <tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 <td>
 R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;L. Clarkson.
  On the error performance of the <em>A</em><sub>n</sub> lattices.
@@ -82,6 +92,7 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 </tr>
 
 <tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 	<td>
 	R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, and I.&nbsp;V.&nbsp;L. Clarkson.
  Direction estimation by minimum squared arc length.
@@ -91,6 +102,7 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 	</tr>
 
 	<tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 		<td>
 		R.&nbsp;G. McKilliam, Barry&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and Bill Moran.
 		  Frequency estimation by phase unwrapping.
@@ -100,6 +112,7 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 	</tr>
 	
 	<tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 		<td>
 		R.&nbsp;G. McKilliam, W.&nbsp;D. Smith, and I.&nbsp;V.&nbsp;L. Clarkson.
 		  Linear-time nearest point algorithms for Coxeter lattices.
@@ -109,6 +122,7 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 	</tr>
 	
 	<tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 		<td>
 		R.&nbsp;G. McKilliam and I.&nbsp;V.&nbsp;L. Clarkson.
 		Identifiability and aliasing in polynomial-phase signals.
@@ -120,6 +134,7 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 	</tr>
 
 	<tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 		<td>
 		R.&nbsp;G. McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G. Quinn.
   		An algorithm to compute the nearest point in the lattice <em>A</em><sub>n</sub><sup>*</sup>.
@@ -136,7 +151,8 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 <table cellpadding="4" cellspacing="0" width="600" >
 
 <tr valign="top">
-<td class="bibtexitem">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>
 B.&nbsp;G.&nbsp;Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G.&nbsp;McKilliam.
  On the Periodogram Estimator of Period from Sparse, Noisy Timing Data.
  Asilomar Conference on Signals, Systems, and Computers, Nov.
@@ -146,7 +162,8 @@ B.&nbsp;G.&nbsp;Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G.&nbsp;McKillia
 </tr>
 
 <tr valign="top">
-<td class="bibtexitem">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>
 R.&nbsp;G. McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;Quinn.
  Noncoherent least squares estimators of carrier phase and amplitude.
  IEEE Internat. Conf. Acoust. Spe. Sig. Process., pages 4888-4892, May
@@ -156,167 +173,172 @@ R.&nbsp;G. McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Clarkso
 </tr>
 
 <tr valign="top">
-<td class="bibtexitem">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>
 J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
  Decoder-aided synchronization for multiuser CDMA systems.
  In <em>in Proc. Australian Commun. Theory Workshop</em>,
   pages 31-36, Jan. 2013.
-[&nbsp;<a href="robby_bib.html#6510040">bib</a>&nbsp;|<a href="http://dx.doi.org/10.1109/AusCTW.2013.6510040">doi</a>&nbsp;]
+[&nbsp;<a href="robby_bib.html#6510040">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/AusCTW.2013.6510040">doi</a>&nbsp;]
 </td>
 </tr>
 
 
 <tr valign="top">
-<td class="bibtexitem">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>
 B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G. McKilliam.
  Estimating period from sparse, noisy timing data.
  In <em>IEEE Statistical Signal Processing Workshop (SSP)</em>, pages
   193-196, Aug. 2012.
-[&nbsp;<a href="robby_bib.html#Quinn_est_per_SSP_2012">bib</a>&nbsp;| 
-<a href="http://dx.doi.org/10.1109/SSP.2012.6319657">doi</a>&nbsp;]
+[&nbsp;<a href="robby_bib.html#Quinn_est_per_SSP_2012">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/SSP.2012.6319657">doi</a>&nbsp;]
 </td>
 </tr>
 
 <tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 <td>
 R.&nbsp;G. McKilliam and A.&nbsp;Grant.
  Finding short vectors in a lattice of Voronoi's first kind.
  In <em>IEEE International Symposium on Information Theory
   Proceedings (ISIT)</em>, pages 2157-2160, July 2012.
-[&nbsp;<a href="robby_bib.html#McKilliam_short_vectors_first_type_isit_2012">bib</a> 
-|&nbsp;<a href="http://arxiv.org/abs/1201.5154">arxiv</a>&nbsp;]
+[&nbsp;<a href="robby_bib.html#McKilliam_short_vectors_first_type_isit_2012">bib</a>&nbsp;|&nbsp;<a href="http://arxiv.org/abs/1201.5154">arxiv</a>&nbsp;]
 
 </td>
 </tr>
 
 
 <tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 <td>
 J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
  Code-acquisition via the projection method for CDMA systems in high
   MAI channels.
  In <em>Communications (ICC), 2012 IEEE International Conference on</em>,
   pages 2575-2579, 2012.
-[&nbsp;<a href="robby_bib.html#6363913">bib</a>&nbsp;| 
-<a href="http://dx.doi.org/10.1109/ICC.2012.6363913">doi</a>&nbsp;]
+[&nbsp;<a href="robby_bib.html#6363913">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/ICC.2012.6363913">doi</a>&nbsp;]
 </td>
 </tr>
 
 
    <tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
     <td>
       R.&nbsp;G. McKilliam and B.&nbsp;G. Quinn.
       Estimating the circular mean from correlated observations.
       In <em>Defence App. Sig. Proc.</em>, July 2011. 
-      [&nbsp;<a href="robby_bib.html#McKilliam_direstcro_dasp_2011">bib</a> | 
-      <a href="papers/circmeancorr.pdf">pdf</a>&nbsp;]
+      [&nbsp;<a href="robby_bib.html#McKilliam_direstcro_dasp_2011">bib</a>&nbsp;|&nbsp;<a href="papers/circmeancorr.pdf">pdf</a>&nbsp;]
   </tr>
 
-<!--
   <tr valign="top">
-    <td>
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>    
+<td>
       B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G. McKilliam.
       Estimating period from sparse, noisy timing data.
       In <em>Defence App. Sig. Proc.</em>, July 2011.
       [&nbsp;<a href="robby_bib.html#Quinn_snpe_dasp_2011">bib</a>&nbsp;]
     </td>
-  </tr> -->
+  </tr>
 
   <tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
     <td>
       R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;Moran.
       The asymptotic properties of polynomial phase estimation by least
       squares phase unwrapping.
      <em>Proc. Internat. Conf. Acoust. Spe. Sig. Process.</em>, pages 3592-3595, May 2011.
-      [&nbsp;<a href="robby_bib.html#McKilliam_polyphase_est_icassp_2011">bib</a> | <a href="http://dx.doi.org/10.1109/ICASSP.2011.5946255">doi</a>&nbsp;]
+      [&nbsp;<a href="robby_bib.html#McKilliam_polyphase_est_icassp_2011">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/ICASSP.2011.5946255">doi</a>&nbsp;]
 
     </td>
   </tr>
 
 
   <tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
     <td>
       R.&nbsp;G. McKilliam, D.&nbsp;J. Ryan, I.&nbsp;V.&nbsp;L. Clarkson, and I.&nbsp;B. Collings.
       Block noncoherent detection of hexagonal QAM.
       <em>in Proc. Australian Commun. Theory Workshop</em>, pages 65-70, Feb. 2010.
-      [&nbsp;<a href="robby_bib.html#McKilliam2010_block_noncoherent_hex">bib</a> | <a href="http://dx.doi.org/10.1109/AUSCTW.2010.5426763">doi</a>&nbsp;]
+      [&nbsp;<a href="robby_bib.html#McKilliam2010_block_noncoherent_hex">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/AUSCTW.2010.5426763">doi</a>&nbsp;]
 
     </td>
   </tr>
 
   <tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
     <td>
       R.&nbsp;G. McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, B.&nbsp;G. Quinn, and B.&nbsp;Moran.
  Polynomial-phase estimation, phase unwrapping and the nearest lattice
   point problem.
  <em>Asilomar Conference on Signals, Systems, and Computers</em>, pages
   493-495, Nov. 2009.
-      [ <a href="./robby_bib.html#McKilliam2009asilomar_polyest_lattice">bib</a>&nbsp;| <a href="http://dx.doi.org/10.1109/ACSSC.2009.5469871">doi</a>&nbsp;| <a href="papers/asilomar_polyphase_est.pdf">pdf</a>&nbsp;]	
+      [&nbsp;<a href="./robby_bib.html#McKilliam2009asilomar_polyest_lattice">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/ACSSC.2009.5469871">doi</a>&nbsp;|&nbsp;<a href="papers/asilomar_polyphase_est.pdf">pdf</a>&nbsp;]	
     </td>
   </tr>
 
   <tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
     <td>
       R.&nbsp;G. McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, D.&nbsp;J. Ryan, and I.&nbsp;B.
       Collings.
       Linear-time block noncoherent detection of PSK. <em>Proc. Internat. Conf. 
 	Acoust. Speech Signal Process.</em>,
       pages 2465-2468, April 2009.
-      [&nbsp;<a href="robby_bib.html#4960121">bib</a>&nbsp;| 
-      <a href="http://dx.doi.org/10.1109/ICASSP.2009.4960121">doi</a>&nbsp;]
+      [&nbsp;<a href="robby_bib.html#4960121">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/ICASSP.2009.4960121">doi</a>&nbsp;]
     </td>
   </tr>
 
 
   <tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
     <td>R.&nbsp;G. McKilliam and I.&nbsp;V.&nbsp;L. Clarkson. Maximum-likelihood period 
       estimation from sparse, noisy timing data. <em>Proc. Internat. Conf. 
 	Acoust. Speech Signal Process.</em>, pages 3697-3700, March 2008.
-      [ <a href="robby_bib.html#McKilliam2007">bib</a> |
-      <a href="http://dx.doi.org/10.1109/ICASSP.2008.4518455">doi</a>&nbsp;]
+      [&nbsp;<a href="robby_bib.html#McKilliam2007">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/ICASSP.2008.4518455">doi</a>&nbsp;]
       
     </td>
   </tr>
 
   <tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
     <td>R.&nbsp;G. McKilliam, D.&nbsp;J. Ryan, I.&nbsp;V.&nbsp;L. Clarkson, and I.&nbsp;B. Collings. 
       An improved algorithm for optimal noncoherent QAM detection. <em>Proc. 
 	Austral. Comm. Theory Workshop</em>, pages 64-68, Jan 2008.
-      [ <a href="robby_bib.html#McKilliam2008a">bib</a> |
-      <a href="http://dx.doi.org/10.1109/AUSCTW.2008.4460823">doi</a> ]
+      [&nbsp;<a href="robby_bib.html#McKilliam2008a">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/AUSCTW.2008.4460823">doi</a>&nbsp;]
 
     </td>
   </tr>
   
   <tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 <td>
 R.&nbsp;G. McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, W. D. Smith and B.&nbsp;G. Quinn.
   A linear-time nearest point algorithm for the lattice <em>A</em><sub>n</sub><sup>*</sup>. <em>International Symposium on Information Theory
   and its Applications</em>, 2008.
-[ <a href="./robby_bib.html#McKilliam2008b">bib</a> |
-<a href="papers/ISITA_Anstar.pdf">pdf</a>&nbsp;]
+[&nbsp;<a href="./robby_bib.html#McKilliam2008b">bib</a>&nbsp;|&nbsp;<a href="papers/ISITA_Anstar.pdf">pdf</a>&nbsp;]
 
 </td>
 </tr>
   
     <tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
     <td>
 B.&nbsp;G. Quinn, R.&nbsp;G. McKilliam, and I.&nbsp;V.&nbsp;L. Clarkson.
   Maximizing the periodogram.
   <em>IEEE GLOBECOM</em>, pages 1-5, Dec 2008.
-[ <a href="./robby_bib.html#Quinn2008maximizing_the_periodogram">bib</a> | 
-<a href="http://dx.doi.org/10.1109/GLOCOM.2008.ECP.668">doi</a> ]
+[&nbsp;<a href="./robby_bib.html#Quinn2008maximizing_the_periodogram">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/GLOCOM.2008.ECP.668">doi</a>&nbsp;]
 
     </td>
     </tr>
   
 
 	<tr valign="top">
-		<td>R.&nbsp;McKilliam and G.&nbsp;Wyeth. Fast and robust stereo object recognition 
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+		<td>
+R.&nbsp;McKilliam and G.&nbsp;Wyeth. Fast and robust stereo object recognition 
 		for spheres. <em>Proc. Australasian Conference on Robotics and 
 		Automation</em>, 2006.
-		[ <a href="robby_bib.html#McKilliam2006">bib</a> |
-		<a href="http://www.araa.asn.au/acra/acra2006/papers/paper_5_62.pdf">pdf</a>&nbsp;]
+		[&nbsp;<a href="robby_bib.html#McKilliam2006">bib</a>&nbsp;|&nbsp;<a href="http://www.araa.asn.au/acra/acra2006/papers/paper_5_62.pdf">pdf</a>&nbsp;]
 
 		</td>
 	</tr>
