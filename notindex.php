@@ -67,7 +67,7 @@ R.&nbsp;G. McKilliam.
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 <td>
 R.&nbsp;G. McKilliam, A.&nbsp;Pollok, and B.&nbsp;Cowley.
- Time offset estimation using pilots and data.
+ Simultaneous symbol timing and frame synchronization for phase shift keying.
  accepted to <em>IEEE Transactions on Communications</em>, Jan. 2014.
 [&nbsp;<a href="robby_bib.html#McKilliam_time_offset_pilots_data_2013">bib</a>&nbsp;]
 </td>
