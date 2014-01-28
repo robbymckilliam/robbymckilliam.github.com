@@ -30,7 +30,8 @@ Robby McKilliam is a post doc at the Institute for Telecommunications Research a
 		<td valign="top" width="432">
 		<!--<img border="0" src="profilepic.jpg" width="228" height="352"></td>-->
 		<!--<img border="0" src="profile2.jpg" width="192" height="271"></td>-->
-		<img border="0" src="profilewedding.jpg" width="200" height="275"></td>
+		<!--<img border="0" src="profilewedding.jpg" width="200" height="275"></td>-->
+		<img border="0" src="profilewedding3.jpg" width="200" height="280"></td>
 		<!--<img border="0" src="profilewedding2.jpg" width="192" height="281"></td>-->
 		<!--<img border="0" src="littlecreatures.jpg" width="192" height="271"></td>-->
 	</tr>
@@ -137,7 +138,7 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 		<td>
 		R.&nbsp;G. McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G. Quinn.
-  		An algorithm to compute the nearest point in the lattice <em>A</em><sub>n</sub><sup>*</sup>.
+  		An algorithm to compute the nearest point in the lattice <em>A</em><sub>n</sub>*.
   		<em>IEEE Trans. Inform. Theory</em>, 54(9):4378-4381, Sep. 2008.
 		[&nbsp;<a href="./robby_bib.html#McKilliam2008">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/TIT.2008.928280">doi</a>&nbsp;|&nbsp;<a href="http://arxiv.org/abs/0801.1364">arxiv</a>&nbsp;]
 	</td>
@@ -313,7 +314,7 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 <td>
 R.&nbsp;G. McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, W. D. Smith and B.&nbsp;G. Quinn.
-  A linear-time nearest point algorithm for the lattice <em>A</em><sub>n</sub><sup>*</sup>. <em>International Symposium on Information Theory
+  A linear-time nearest point algorithm for the lattice <em>A</em><sub>n</sub>*. <em>International Symposium on Information Theory
   and its Applications</em>, 2008.
 [&nbsp;<a href="./robby_bib.html#McKilliam2008b">bib</a>&nbsp;|&nbsp;<a href="papers/ISITA_Anstar.pdf">pdf</a>&nbsp;]
 
@@ -370,7 +371,7 @@ R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, B.&nbsp;Mor
 <br>
 <b>Invited Talks</b>
 <table cellpadding="4" cellspacing="0" width="600">
-<tr valign="top"><td> The lattice <em>A</em><sub>n</sub><sup>*</sup> and applications to synchronisation. <em>Australian Communications Theory Workshop (AusCTW)</em>, Melbourne, Australia, 2011. [&nbsp;<a href="talks/ausctw2011.pdf">pdf</a>&nbsp;] </td></tr>
+<tr valign="top"><td> The lattice <em>A</em><sub>n</sub>* and applications to synchronisation. <em>Australian Communications Theory Workshop (AusCTW)</em>, Melbourne, Australia, 2011. [&nbsp;<a href="talks/ausctw2011.pdf">pdf</a>&nbsp;] </td></tr>
 <tr valign="top"><td> The error performance of the <em>A</em><sub>n</sub> lattices. <em>International Symposium on the Mathematical Theory of Networks and Systems (MTNS)</em>, Melbourne, Australia, 2012 [&nbsp;<a href="talks/mnts2012.pdf">pdf</a>&nbsp;] </td></tr>
 </table>
 
