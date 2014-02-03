@@ -66,6 +66,16 @@ R.&nbsp;G. McKilliam.
 <tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 <td>
+R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, B.&nbsp;Moran, and B.&nbsp;N. Vellambi.
+ Polynomial phase estimation by least squares phase unwrapping.
+ accepted to <em>IEEE Transactions on Signal Processing</em>, Jan. 2014.
+[&nbsp;<a href="robby_bib.html#McKilliam_pps_unwrapping_tsp_2014">bib</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ppsphaseunwrapping">code</a>]
+</td>
+</tr>
+
+<tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>
 R.&nbsp;G. McKilliam, A.&nbsp;Pollok, and B.&nbsp;Cowley.
  Simultaneous symbol timing and frame synchronization for phase shift keying.
  accepted to <em>IEEE Transactions on Communications</em>, Jan. 2014.
@@ -106,7 +116,7 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 	<tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 		<td>
-		R.&nbsp;G. McKilliam, Barry&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and Bill Moran.
+		R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and Bill Moran.
 		  Frequency estimation by phase unwrapping.
 		  <em>IEEE Trans. Signal Process.</em>, 58(6):2953-2963, June 2010.
 		[&nbsp;<a href="./robby_bib.html#McKilliamFrequencyEstimationByPhaseUnwrapping2009">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/TSP.2010.2045786">doi</a>&nbsp;|&nbsp;<a href="http://github.com/robbymckilliam/frequency_estimation_by_phase_unwrapping">code</a>&nbsp;]
@@ -356,14 +366,6 @@ R.&nbsp;G. McKilliam, A. Pollok, B. Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&
  Carrier phase and amplitude estimation for phase shift keying using
   pilots and data. Jan. 2013.
 [&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ComplexAmplitudeEstimationPSK">code</a>&nbsp;]
-</td>
-</tr>
-
-<tr valign="top">
-<td>
-R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, B.&nbsp;Moran, B.&nbsp;N. Vellambi.
- Polynomial phase estimation by phase unwrapping. Nov. 2012.
-[&nbsp;<a href="http://arxiv.org/abs/1211.0374">arxiv</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ppsphaseunwrapping">code</a>&nbsp;]
 </td>
 </tr>
 </table>
