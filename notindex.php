@@ -69,7 +69,7 @@ R.&nbsp;G. McKilliam.
 R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, B.&nbsp;Moran, and B.&nbsp;N. Vellambi.
  Polynomial phase estimation by least squares phase unwrapping.
  accepted to <em>IEEE Transactions on Signal Processing</em>, Jan. 2014.
-[&nbsp;<a href="robby_bib.html#McKilliam_pps_unwrapping_tsp_2014">bib</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ppsphaseunwrapping">code</a>]
+[&nbsp;<a href="robby_bib.html#McKilliam_pps_unwrapping_tsp_2014">bib</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ppsphaseunwrapping">code</a>&nbsp;]
 </td>
 </tr>
 
