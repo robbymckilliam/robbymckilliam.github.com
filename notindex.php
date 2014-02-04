@@ -39,6 +39,14 @@ Robby McKilliam is a post doc at the Institute for Telecommunications Research a
 </table>
 <br>
 
+<br>
+<b>Teaching</b>
+<table cellpadding="4" cellspacing="0" width="600">
+<tr valign="top"><td> <a href="./signalsandsystems/index.html">Signals and Systems (EEET 3041)</a>. University of South Australia. 2013. </td></tr>
+<tr valign="top"><td> Modern Communication Systems (EEET 4036). University of South Australia. 2012. </td></tr>
+<tr valign="top"><td> Digital Communications (COMS 4100). University of Queensland. 2010. </td></tr>
+</table>
+
 
 <?php
 $Frefcounter = 1;
@@ -232,7 +240,7 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
 </td>
 </tr>
 
-
+<!--
    <tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
     <td>
@@ -241,6 +249,7 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
       In <em>Defence App. Sig. Proc.</em>, July 2011. 
       [&nbsp;<a href="robby_bib.html#McKilliam_direstcro_dasp_2011">bib</a>&nbsp;|&nbsp;<a href="papers/circmeancorr.pdf">pdf</a>&nbsp;]
   </tr>
+-->
 
   <tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>    
@@ -384,15 +393,6 @@ R.&nbsp;G. McKilliam, A. Pollok, B. Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&
 <tr valign="top"><td>
 Next to many of the papers listed above is a link named `code'.  This links to a repository containing the latex file and the software used for running simulations and generating plots relevant to that paper.  All of the software is released under the <a href="http://matt.might.net/articles/crapl/">CRAPL</a> and comes with no guarantee as to legibility, coding style or anything else.  I recommend <a href="http://abandonmatlab.wordpress.com/">this blog</a>.<!-- Much of the code is Java, some Mathematica, some Ruby, some Python. Recently I have been using <a href="http://www.scala-lang.org/">Scala</a>.  My oppinion of MATLAB is well represented by <a href="http://abandonmatlab.wordpress.com/">this website</a>. -->
 </td></tr>
-</table>
-
-
-<br>
-<b>Teaching</b>
-<table cellpadding="4" cellspacing="0" width="600">
-<tr valign="top"><td> <a href="./signalsandsystems/index.html">Signals and Systems (EEET 3041)</a>. University of South Australia. 2013. </td></tr>
-<tr valign="top"><td> Modern Communication Systems (EEET 4036). University of South Australia. 2012. </td></tr>
-<tr valign="top"><td> Digital Communications (COMS 4100). University of Queensland. 2010. </td></tr>
 </table>
 
 <!--
