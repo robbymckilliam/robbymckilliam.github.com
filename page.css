@@ -1,6 +1,6 @@
 h1 {
   font-size: 180%;
-  font-family: Arial, sans-serif;
+  font-family: Arial,sans-serif;
   color:#333366;
 }
 h2 {
@@ -28,6 +28,9 @@ a.uqnavigationlink:link {
 }
 a.uqnavigationlink:hover {
     color: #003399;
+}
+html {
+-webkit-font-smoothing: antialiased;
 }
 
 /* removed till i fix it :(
