@@ -39,7 +39,6 @@ Robby McKilliam is a post doc at the Institute for Telecommunications Research a
 </table>
 <br>
 
-
 <?php
 $Frefcounter = 1;
 ?>
@@ -69,7 +68,7 @@ R.&nbsp;G. McKilliam.
 R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, B.&nbsp;Moran, and B.&nbsp;N. Vellambi.
  Polynomial phase estimation by least squares phase unwrapping.
  accepted to <em>IEEE Transactions on Signal Processing</em>, Jan. 2014.
-[&nbsp;<a href="robby_bib.html#McKilliam_pps_unwrapping_tsp_2014">bib</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ppsphaseunwrapping">code</a>]
+[&nbsp;<a href="robby_bib.html#McKilliam_pps_unwrapping_tsp_2014">bib</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ppsphaseunwrapping">code</a>&nbsp;]
 </td>
 </tr>
 
@@ -232,7 +231,7 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
 </td>
 </tr>
 
-
+<!--
    <tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
     <td>
@@ -241,8 +240,9 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
       In <em>Defence App. Sig. Proc.</em>, July 2011. 
       [&nbsp;<a href="robby_bib.html#McKilliam_direstcro_dasp_2011">bib</a>&nbsp;|&nbsp;<a href="papers/circmeancorr.pdf">pdf</a>&nbsp;]
   </tr>
+-->
 
-  <tr valign="top">
+<!--  <tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>    
 <td>
       B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G. McKilliam.
@@ -251,6 +251,7 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
       [&nbsp;<a href="robby_bib.html#Quinn_snpe_dasp_2011">bib</a>&nbsp;]
     </td>
   </tr>
+-->
 
   <tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
