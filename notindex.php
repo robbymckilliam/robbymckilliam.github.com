@@ -64,6 +64,17 @@ R.&nbsp;G. McKilliam.
 
 <tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td class="bibtexitem">
+A.&nbsp;Pollok and R.&nbsp;G. McKilliam.
+ Modified Cram&eacute;r-Rao bounds for continuous-phase modulated
+  signals.
+ accepted to <em>IEEE Transactions on Communications</em>, Feb. 2014.
+[&nbsp;<a href="robby_bib.html#Pollok_McKilliam_crb_cpm_2014">bib</a>&nbsp;]
+</td>
+</tr>
+
+<tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 <td>
 R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, B.&nbsp;Moran, and B.&nbsp;N. Vellambi.
  Polynomial phase estimation by least squares phase unwrapping.
