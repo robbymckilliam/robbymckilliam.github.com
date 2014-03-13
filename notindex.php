@@ -149,8 +149,8 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 		R.&nbsp;G. McKilliam and I.&nbsp;V.&nbsp;L. Clarkson.
 		Identifiability and aliasing in polynomial-phase signals.
 		<em>IEEE Trans. Signal Process.</em>, 57(11):4554-4557, Nov. 2009.
-	<!--	<b>Winner:</b> Canon Information Systems Research Australia (CiSRA) best paper prize 2010. <br /> -->
-		[&nbsp;<a href="./robby_bib.html#McKilliam2009IndentifiabliltyAliasingPolyphase">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/TSP.2009.2026511">doi</a>&nbsp;]
+		[&nbsp;<a href="./robby_bib.html#McKilliam2009IndentifiabliltyAliasingPolyphase">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/TSP.2009.2026511">doi</a>&nbsp;] 
+<br /> <b>Winner:</b> Canon Information Systems Research Australia (CiSRA) best student paper prize 2010. <br /> 
 		
 		</td>
 	</tr>
@@ -171,6 +171,20 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 
 
 <table cellpadding="4" cellspacing="0" width="600" >
+
+<tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>
+D. Haley, L.&nbsp;M. Davis, A. Pollok, Y. Chen, G. Lechner, M.
+  Lavenant, S.&nbsp;A. Barbulescu, J. Buetefuer, W.&nbsp;G. Cowley, A.
+  Grant, T. Kemp, I. Land, R. Luppino, R.&nbsp;G. McKilliam, and H. Soetiyono.
+ Software defined radio based global sensor network architecture.
+ In <em>Wireless Innovation Forum Conference on Communications
+  Technologies and Software Defined Radio</em>, 2014.
+[&nbsp;<a href="robby_bib.html#Haley_sdr_asrp_winncomm">bib</a>&nbsp;]
+<br />  <b>Winner:</b> Wireless Innovation Forum Technology of the year 2013 prize [<a href="http://www.unisa.edu.au/Media-Centre/Releases/Australian-innovators-take-home-international--technology-award/#.UyE62nWSyzV">link</a>]  <br /> 
+</td>
+</tr>
 
 <tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
