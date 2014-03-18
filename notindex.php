@@ -366,7 +366,8 @@ R.&nbsp;McKilliam and G.&nbsp;Wyeth. Fast and robust stereo object recognition
 R.&nbsp;G. McKilliam, A. Pollok, B. Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G. Quinn.
  Carrier phase and amplitude estimation for phase shift keying using
   pilots and data. Jan. 2013.
-[&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ComplexAmplitudeEstimationPSK">code</a>&nbsp;]
+[&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;]
+<!-- [&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ComplexAmplitudeEstimationPSK">code</a>&nbsp;] -->
 </td>
 </tr>
 </table>
