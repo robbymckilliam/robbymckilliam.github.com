@@ -68,7 +68,7 @@ R.&nbsp;G. McKilliam.
 A.&nbsp;Pollok and R.&nbsp;G. McKilliam.
  Modified Cram&eacute;r-Rao bounds for continuous-phase modulated
   signals.
- accepted to <em>IEEE Transactions on Communications</em>, Feb. 2014.
+ accepted to <em>IEEE Trans. Comm.</em>, Feb. 2014.
 [&nbsp;<a href="robby_bib.html#Pollok_McKilliam_crb_cpm_2014">bib</a>&nbsp;]
 </td>
 </tr>
@@ -78,8 +78,9 @@ A.&nbsp;Pollok and R.&nbsp;G. McKilliam.
 <td>
 R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, B.&nbsp;Moran, and B.&nbsp;N. Vellambi.
  Polynomial phase estimation by least squares phase unwrapping.
- accepted to <em>IEEE Transactions on Signal Processing</em>, Jan. 2014.
-[&nbsp;<a href="robby_bib.html#McKilliam_pps_unwrapping_tsp_2014">bib</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ppsphaseunwrapping">code</a>&nbsp;]
+  <em>IEEE Trans. Signal Process.</em>, 62(8):1962-1975, April 2014.
+[&nbsp;<a href="robby_bib.html#McKilliam_pps_unwrapping_tsp_2014">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1109/TSP.2014.2306178">doi</a>&nbsp|&nbsp;<a href="https://github.com/robbymckilliam/ppsphaseunwrapping">code</a>&nbsp;]
 </td>
 </tr>
 
@@ -88,7 +89,7 @@ R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, B.&nbsp;Mor
 <td>
 R.&nbsp;G. McKilliam, A.&nbsp;Pollok, and B.&nbsp;Cowley.
  Simultaneous symbol timing and frame synchronization for phase shift keying.
- accepted to <em>IEEE Transactions on Communications</em>, Jan. 2014.
+ accepted to <em>IEEE Trans. Comm.</em>, Jan. 2014.
 [&nbsp;<a href="robby_bib.html#McKilliam_time_offset_pilots_data_2013">bib</a>&nbsp;]
 </td>
 </tr>
