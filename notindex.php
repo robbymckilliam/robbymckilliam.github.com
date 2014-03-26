@@ -78,7 +78,7 @@ A.&nbsp;Pollok and R.&nbsp;G. McKilliam.
 <td>
 R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, B.&nbsp;Moran, and B.&nbsp;N. Vellambi.
  Polynomial phase estimation by least squares phase unwrapping.
-  <em>IEEE Trans. Signal Process.</em>, 62(8):1962-1975, April 2014.
+  <em>IEEE Trans. Signal Process.</em>, 62(8):1962-1975, Apr. 2014.
 [&nbsp;<a href="robby_bib.html#McKilliam_pps_unwrapping_tsp_2014">bib</a>&nbsp;| 
 <a href="http://dx.doi.org/10.1109/TSP.2014.2306178">doi</a>&nbsp|&nbsp;<a href="https://github.com/robbymckilliam/ppsphaseunwrapping">code</a>&nbsp;]
 </td>
@@ -87,10 +87,10 @@ R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, B.&nbsp;Mor
 <tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 <td>
-R.&nbsp;G. McKilliam, A.&nbsp;Pollok, and B.&nbsp;Cowley.
- Simultaneous symbol timing and frame synchronization for phase shift keying.
- accepted to <em>IEEE Trans. Comm.</em>, Jan. 2014.
-[&nbsp;<a href="robby_bib.html#McKilliam_time_offset_pilots_data_2013">bib</a>&nbsp;]
+R.&nbsp;G. McKilliam, A.&nbsp;Pollok, and W.&nbsp;Cowley.
+ Simultaneous symbol timing and frame synchronization for phase shift
+  keying. <em>IEEE Trans. Commun.</em>, 62(3):1114-1123, Mar. 2014.
+[&nbsp;<a href="robby_bib.html#McKilliam_time_offset_pilots_data_2013">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/TCOMM.2014.020614.130277">doi</a>&nbsp]
 </td>
 </tr>
 
