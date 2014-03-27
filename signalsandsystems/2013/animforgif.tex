@@ -1,0 +1,95 @@
+% travelingwave.tex
+\documentclass{beamer}
+\setbeamertemplate{navigation symbols}{}%
+\usepackage{tikz,multido}
+\usetikzlibrary{calc,patterns,decorations.pathmorphing,decorations.markings,chains}
+
+ %scope all the newcommands
+\newcommand{\vtick}[1]{\draw (#1,-0.075) -- (#1,0.075) }
+\newcommand{\htick}[1]{\draw (-0.075,#1) -- (0.075,#1)}
+  \newcommand{\plotxscale}{1.3}
+  \newcommand{\background}{
+    \begin{scope}[yscale=0.6,xscale=\plotxscale]
+      \draw[->] (-3.8,0) -- (3.8,0) node[above] {$t$};
+      \draw[->] (0,-4.2) -- (0,3);
+      % \draw[color=black] plot[id=x] function{1/x^2} 
+      % node[right] {$f(t) = t^{-2}$};
+      \draw[smooth,color=black,thick] plot function{exp(-x*x)};
+      \draw[smooth,color=black,thick] plot function{exp(-x*x)*(1-8*x -8*x*x + 4*x*x*x + 4*x*x*x*x)};
+      \draw[smooth,color=black,thick] plot function{2*exp(-x*x)*x*x - 2.5};
+      \vtick{-3} node[pos=0.5,below] {$-3$};
+      \vtick{-2} node[pos=0.5,below] {$-2$};
+      \vtick{-1} node[pos=0.5,below] {$-1$};
+      \vtick{1} node[pos=0.5,below] {$1$};
+      \vtick{2} node[pos=0.5,below] {$2$};
+      \vtick{3} node[pos=0.5,below] {$3$};
+      \htick{2} node[pos=0.5,right] {$2$};
+      \htick{-2} node[pos=0.5,left] {$-2$};
+      \htick{-4} node[pos=0.5,left] {$-4$};
+      \node at (-1,1.8) {$f(t)$};
+      \node at (0.8,1.1) {$p(t)$};
+      \node at (-2.6,-2) {$p_1(t)$};
+    \end{scope}
+  }
+\newcommand{\animations}[1]{
+    \pgfmathparse{exp(-#1*#1)}\pgfmathresult \let\p\pgfmathresult
+    \pgfmathparse{2*exp(-#1*#1)*#1*#1}\pgfmathresult \let\g\pgfmathresult
+    %draw animated line
+    \begin{scope}[xscale=\plotxscale]
+      \clip (-3.8,-1) rectangle (3.8,1);
+      %\draw[thick] (#1,-0.2)--(#1,0.2);
+      \node[draw,circle,inner sep=2pt,fill] at (#1,0) {};
+    \end{scope}
+    % draw animated mass spring damper
+    \begin{scope}[xshift=-3cm,yshift=-4.5cm]
+      \tikzstyle{spring}=[thick,decorate,decoration={coil,pre length=0.3cm,post length=0.3cm,segment length=6,aspect=0.9}]
+      \tikzstyle{damper}=[thick,decoration={markings,  
+        mark connection node=dmp,
+        mark=at position 0.5 with 
+        {
+          \node (dmp) [thick,inner sep=0pt,transform shape,rotate=-90,minimum width=15pt,minimum height=3pt,draw=none] {};
+          \draw [thick] ($(dmp.north east)+(2pt,0)$) -- (dmp.south east) -- (dmp.south west) -- ($(dmp.north west)+(2pt,0)$);
+          \draw [thick] ($(dmp.north)+(0,-5pt)$) -- ($(dmp.north)+(0,5pt)$);
+        }
+      }, decorate]
+      \tikzstyle{ground}=[fill,pattern=north east lines,draw=none,minimum width=0.75cm,minimum height=0.3cm]
+      \tikzstyle{wall}=[fill,pattern=north east lines,draw=none,minimum width=0.3cm,minimum height=2cm]
+
+      \node (W) [wall] {};
+      \draw (W.north east)--(W.south east);
+
+      \node (M1) [minimum width=1cm,minimum height=2cm,style={draw,outer sep=0pt,thick},xshift=2.5cm+\g cm] {$M_1$};
+      \draw [damper] (W.east)--(M1.west) node[pos=0.5,above,minimum height=30pt] {$B$};
+      \draw [-latex,thick] (M1.north) ++(-0.5cm,0.2cm) -- +(1cm,0) node[pos=0.5,above] {$f(t)$};
+      \draw [-latex,thick] (M1.south) ++(-0.5cm,-0.2cm) -- +(1cm,0) node[pos=0.5,below] {$p_1(t)$};
+
+      \node (M2) [minimum width=1cm,minimum height=2cm,style={draw,outer sep=0pt,thick},xshift=5cm+\p cm] {$M_2$};
+      \draw [spring] (M1.east)--(M2.west) node[pos=0.5,above,minimum height=20pt] {$K$};
+     \draw [-latex,thick] (M2.south) ++(-0.5cm,-0.2cm) -- +(1cm,0) node[pos=0.5,below] {$p(t)$};
+      
+      \begin{scope}[xshift=5cm,yshift=-2cm]
+        \draw (-4.3,0) -- (2.3cm,0);
+        \vtick{2} node[pos=0.5,below] {$2$};
+        \vtick{1} node[pos=0.5,below] {$1$};
+        \vtick{0} node[pos=0.5,below] {$0$};
+        \vtick{-1} node[pos=0.5,below] {$-1$};
+        \vtick{-2} node[pos=0.5,below] {$-2$};
+        \vtick{-3} node[pos=0.5,below] {$-3$};
+        \vtick{-4} node[pos=0.5,below] {$-4$};
+      \end{scope}
+    \end{scope}
+}
+
+
+\begin{document}
+\multido{\rtime=-4.0+0.06}{134}
+{
+\frame{
+\begin{tikzpicture}[domain=-3.3:3.3,samples=100]
+  \background
+  \animations{\rtime}
+\end{tikzpicture}
+}
+}
+
+\end{document}
