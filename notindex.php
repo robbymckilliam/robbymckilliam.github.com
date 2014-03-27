@@ -396,6 +396,15 @@ R.&nbsp;G. McKilliam, A. Pollok, B. Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&
 <!-- [&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ComplexAmplitudeEstimationPSK">code</a>&nbsp;] -->
 </td>
 </tr>
+
+<tr valign="top">
+<td>
+R.&nbsp;G.&nbsp;McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G.&nbsp;Quinn.
+ Fast sparse period estimation. Mar. 2014.
+[&nbsp;<a href="https://github.com/robbymckilliam/fast_spare_period_estimation">code</a>&nbsp;] 
+</td>
+</tr>
+
 </table>
 
 
