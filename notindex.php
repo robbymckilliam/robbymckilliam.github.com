@@ -298,7 +298,7 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
       R.&nbsp;G. McKilliam, D.&nbsp;J. Ryan, I.&nbsp;V.&nbsp;L. Clarkson, and I.&nbsp;B. Collings.
       Block noncoherent detection of hexagonal QAM.
       <em>in Proc. Australian Commun. Theory Workshop</em>, pages 65-70, Feb. 2010.
-      [&nbsp;<a href="robby_bib.html#McKilliam2010_block_noncoherent_hex">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/AUSCTW.2010.5426763">doi</a>&nbsp;]
+      [&nbsp;<a href="robby_bib.html#McKilliam2010_block_noncoherent_hex">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/AUSCTW.2010.5426763">doi</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/FastOptimalQAM">code</a>&nbsp;]
 
     </td>
   </tr>
@@ -343,7 +343,7 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
     <td>R.&nbsp;G. McKilliam, D.&nbsp;J. Ryan, I.&nbsp;V.&nbsp;L. Clarkson, and I.&nbsp;B. Collings. 
       An improved algorithm for optimal noncoherent QAM detection. <em>Proc. 
 	Austral. Comm. Theory Workshop</em>, pages 64-68, Jan 2008.
-      [&nbsp;<a href="robby_bib.html#McKilliam2008a">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/AUSCTW.2008.4460823">doi</a>&nbsp;]
+      [&nbsp;<a href="robby_bib.html#McKilliam2008a">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/AUSCTW.2008.4460823">doi</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/FastOptimalQAM">code</a>&nbsp;]
 
     </td>
   </tr>
