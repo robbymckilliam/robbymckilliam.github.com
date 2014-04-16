@@ -151,7 +151,7 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 		Identifiability and aliasing in polynomial-phase signals.
 		<em>IEEE Trans. Signal Process.</em>, 57(11):4554-4557, Nov. 2009.
 		[&nbsp;<a href="./robby_bib.html#McKilliam2009IndentifiabliltyAliasingPolyphase">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/TSP.2009.2026511">doi</a>&nbsp;] 
-<br /> <b>Winner:</b> Canon Information Systems Research Australia (CiSRA) best student paper prize 2010. <br /> 
+<br /> <b>Winner:</b> Canon Information Systems Research Australia (CiSRA) prize 2009. <br /> 
 		
 		</td>
 	</tr>
