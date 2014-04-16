@@ -181,7 +181,7 @@ D. Haley, L.&nbsp;M. Davis, A. Pollok, Y. Chen, G. Lechner, M.
   Grant, T. Kemp, I. Land, R. Luppino, R.&nbsp;G. McKilliam, and H. Soetiyono.
  Software defined radio based global sensor network architecture.
  In <em>Wireless Innovation Forum Conference on Communications
-  Technologies and Software Defined Radio</em>, 2014.
+  Technologies and Software Defined Radio</em>, Mar. 2014.
 [&nbsp;<a href="robby_bib.html#Haley_sdr_asrp_winncomm">bib</a>&nbsp;]
 <br />  <b>Winner:</b> Wireless Innovation Forum Technology of the year 2013 prize [<a href="http://www.unisa.edu.au/Media-Centre/Releases/Australian-innovators-take-home-international--technology-award/#.UyE62nWSyzV">link</a>]  <br /> 
 </td>
@@ -214,7 +214,7 @@ R.&nbsp;G. McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Clarkso
 <td>
 J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
  Decoder-aided synchronization for multiuser CDMA systems.
- In <em>in Proc. Australian Commun. Theory Workshop</em>,
+ In <em>Proc. Australian Commun. Theory Workshop</em>,
   pages 31-36, Jan. 2013.
 [&nbsp;<a href="robby_bib.html#6510040">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/AusCTW.2013.6510040">doi</a>&nbsp;]
 </td>
