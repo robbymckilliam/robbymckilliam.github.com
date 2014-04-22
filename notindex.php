@@ -64,6 +64,17 @@ R.&nbsp;G. McKilliam.
 
 <tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+</td>
+<td class="bibtexitem">
+J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, R.&nbsp;G. McKilliam, and A.&nbsp;Grant.
+ Decoder-assisted timing synchronization in multiuser CDMA systems.
+ accepted to <em>IEEE Trans. Comm.</em>, Apr. 2014.
+[&nbsp;<a href="robby_bib.html#Kodithuwakku_tcomms_2014">bib</a>&nbsp;]
+</td>
+</tr>
+
+<tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 <td class="bibtexitem">
 A.&nbsp;Pollok and R.&nbsp;G. McKilliam.
  Modified Cram&eacute;r-Rao bounds for continuous-phase modulated
@@ -79,8 +90,7 @@ A.&nbsp;Pollok and R.&nbsp;G. McKilliam.
 R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, B.&nbsp;Moran, and B.&nbsp;N. Vellambi.
  Polynomial phase estimation by least squares phase unwrapping.
   <em>IEEE Trans. Signal Process.</em>, 62(8):1962-1975, Apr. 2014.
-[&nbsp;<a href="robby_bib.html#McKilliam_pps_unwrapping_tsp_2014">bib</a>&nbsp;| 
-<a href="http://dx.doi.org/10.1109/TSP.2014.2306178">doi</a>&nbsp|&nbsp;<a href="https://github.com/robbymckilliam/ppsphaseunwrapping">code</a>&nbsp;]
+[&nbsp;<a href="robby_bib.html#McKilliam_pps_unwrapping_tsp_2014">bib</a>&nbsp;|&nbsp<a href="http://dx.doi.org/10.1109/TSP.2014.2306178">doi</a>&nbsp|&nbsp;<a href="https://github.com/robbymckilliam/ppsphaseunwrapping">code</a>&nbsp;]
 </td>
 </tr>
 
@@ -172,6 +182,17 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 
 
 <table cellpadding="4" cellspacing="0" width="600" >
+
+<tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+</td>
+<td class="bibtexitem">
+B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G. McKilliam.
+ On the periodogram estimators of periods from interleaved sparse, noisy timing data.
+ accepted to <em>IEEE Statistical Signal Processing Workshop (SSP)</em>, Jul. 2014.
+[&nbsp;<a href="robby_bib.html#Quinn_multiple_sparse_noisy_SSP_2014">bib</a>&nbsp;]
+</td>
+</tr>
 
 <tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
