@@ -387,6 +387,15 @@ R.&nbsp;McKilliam and G.&nbsp;Wyeth. Fast and robust stereo object recognition
 <b> Preprints </b>
 
 <table cellpadding="4" cellspacing="0" width="600">
+
+<tr valign="top">
+<td>
+R.&nbsp;G.&nbsp;McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G.&nbsp;Quinn.
+ Fast sparse period estimation. Mar. 2014.
+[&nbsp;<a href="https://github.com/robbymckilliam/fast_spare_period_estimation">code</a>&nbsp;] 
+</td>
+</tr>
+
 <tr valign="top">
 <td>
 R.&nbsp;G. McKilliam, A. Pollok, B. Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G. Quinn.
@@ -397,22 +406,25 @@ R.&nbsp;G. McKilliam, A. Pollok, B. Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&
 </td>
 </tr>
 
-<tr valign="top">
-<td>
-R.&nbsp;G.&nbsp;McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G.&nbsp;Quinn.
- Fast sparse period estimation. Mar. 2014.
-[&nbsp;<a href="https://github.com/robbymckilliam/fast_spare_period_estimation">code</a>&nbsp;] 
-</td>
-</tr>
-
 </table>
 
 
 <br>
 <b>Invited Talks</b>
 <table cellpadding="4" cellspacing="0" width="600">
-<tr valign="top"><td> The lattice <em>A</em><sub>n</sub>* and applications to synchronisation. <em>Australian Communications Theory Workshop (AusCTW)</em>, Melbourne, Australia, 2011. [&nbsp;<a href="talks/ausctw2011.pdf">pdf</a>&nbsp;] </td></tr>
-<tr valign="top"><td> The error performance of the <em>A</em><sub>n</sub> lattices. <em>International Symposium on the Mathematical Theory of Networks and Systems (MTNS)</em>, Melbourne, Australia, 2012 [&nbsp;<a href="talks/mnts2012.pdf">pdf</a>&nbsp;] </td></tr>
+
+<tr valign="top"><td> 
+Finding shortest and closest vectors in a lattice of Voronoi's first kind. <em>Workshop on interactions between number theory and wireless communication</em>, University of York, United Kingdom, 2014. <!--[&nbsp;<a href="talks/mnts2012.pdf">pdf</a>&nbsp;] -->
+</td></tr>
+
+<tr valign="top"><td> 
+The error performance of the <em>A</em><sub>n</sub> lattices. <em>International Symposium on the Mathematical Theory of Networks and Systems (MTNS)</em>, Melbourne University, Australia, 2012. [&nbsp;<a href="talks/mnts2012.pdf">pdf</a>&nbsp;] 
+</td></tr>
+
+<tr valign="top"><td> 
+The lattice <em>A</em><sub>n</sub>* and applications to synchronisation. <em>Australian Communications Theory Workshop (AusCTW)</em>, Melbourne University, Australia, 2011. [&nbsp;<a href="talks/ausctw2011.pdf">pdf</a>&nbsp;]
+</td></tr>
+
 </table>
 
 <br>
