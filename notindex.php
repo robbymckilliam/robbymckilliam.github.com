@@ -435,7 +435,7 @@ R.&nbsp;G. McKilliam, A. Pollok, B. Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&
 <table cellpadding="4" cellspacing="0" width="600">
 
 <tr valign="top"><td> 
-Finding shortest and closest vectors in a lattice of Voronoi's first kind. <em>Workshop on interactions between number theory and wireless communication</em>, University of York, United Kingdom, 2014. <!--[&nbsp;<a href="talks/mnts2012.pdf">pdf</a>&nbsp;] -->
+Finding shortest and closest vectors in a lattice of Voronoi's first kind. <em>Workshop on interactions between number theory and wireless communication</em>, University of York, United Kingdom, 2014. [&nbsp;<a href="talks/closestpointfirsttype.pdf">pdf</a>&nbsp;]
 </td></tr>
 
 <tr valign="top"><td> 
