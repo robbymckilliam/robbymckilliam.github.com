@@ -39,6 +39,16 @@ Robby McKilliam is a post doc at the Institute for Telecommunications Research a
 </table>
 <br>
 
+<b>Teaching</b>
+<table cellpadding="4" cellspacing="0" width="600">
+<tr valign="top"><td> <a href="./signalsandsystems/index.html">Signals and Systems (EEET 3041)</a>. University of South Australia. 2014. </td></tr>
+<tr valign="top"><td> <a href="./signalsandsystems/2013/tobeindex.html">Signals and Systems (EEET 3041)</a>. University of South Australia. 2013. </td></tr>
+<tr valign="top"><td> Modern Communication Systems (EEET 4036). University of South Australia. 2012. </td></tr>
+<tr valign="top"><td> Digital Communications (COMS 4100). University of Queensland. 2010. </td></tr>
+</table>
+
+<br>
+
 <?php
 $Frefcounter = 1;
 ?>
@@ -79,7 +89,7 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, R.&nbsp;G. McKilliam, and A.&nbsp;Grant.
 A.&nbsp;Pollok and R.&nbsp;G. McKilliam.
  Modified Cram&eacute;r-Rao bounds for continuous-phase modulated
   signals.
- accepted to <em>IEEE Trans. Comm.</em>, Feb. 2014.
+ accepted to <em>IEEE Trans. Comm.</em>, Apr. 2014.
 [&nbsp;<a href="robby_bib.html#Pollok_McKilliam_crb_cpm_2014">bib</a>&nbsp;|&nbsp<a href="http://dx.doi.org/10.1109/TCOMM.2014.030814.130804">doi</a>&nbsp]
 </td>
 </tr>
@@ -226,7 +236,7 @@ R.&nbsp;G. McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Clarkso
  Noncoherent least squares estimators of carrier phase and amplitude.
  IEEE Internat. Conf. Acoust. Spe. Sig. Process., pages 4888-4892, May
   2013.
-[&nbsp;<a href="robby_bib.html#McKilliam_leastsqPSKnoncoICASSP_2012">bib</a>&nbsp;]
+[&nbsp;<a href="robby_bib.html#McKilliam_leastsqPSKnoncoICASSP_2012">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/ICASSP.2013.6638590">doi</a>&nbsp]
 </td>
 </tr>
 
@@ -260,7 +270,7 @@ R.&nbsp;G. McKilliam and A.&nbsp;Grant.
  Finding short vectors in a lattice of Voronoi's first kind.
  In <em>IEEE International Symposium on Information Theory
   Proceedings (ISIT)</em>, pages 2157-2160, July 2012.
-[&nbsp;<a href="robby_bib.html#McKilliam_short_vectors_first_type_isit_2012">bib</a>&nbsp;|&nbsp;<a href="http://arxiv.org/abs/1201.5154">arxiv</a>&nbsp;]
+[&nbsp;<a href="robby_bib.html#McKilliam_short_vectors_first_type_isit_2012">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/ISIT.2012.6283833">doi</a>&nbsp;|&nbsp;<a href="http://arxiv.org/abs/1201.5154">arxiv</a>&nbsp;]
 
 </td>
 </tr>
@@ -374,7 +384,7 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
 <td>
 R.&nbsp;G. McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, W. D. Smith and B.&nbsp;G. Quinn.
   A linear-time nearest point algorithm for the lattice <em>A</em><sub>n</sub>*. <em>International Symposium on Information Theory
-  and its Applications</em>, 2008.
+  and its Applications</em>, Dec. 2008.
 [&nbsp;<a href="./robby_bib.html#McKilliam2008b">bib</a>&nbsp;|&nbsp;<a href="papers/ISITA_Anstar.pdf">pdf</a>&nbsp;]
 
 </td>
@@ -385,7 +395,7 @@ R.&nbsp;G. McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, W. D. Smith and B.&nbsp;G. Qu
     <td>
 B.&nbsp;G. Quinn, R.&nbsp;G. McKilliam, and I.&nbsp;V.&nbsp;L. Clarkson.
   Maximizing the periodogram.
-  <em>IEEE GLOBECOM</em>, pages 1-5, Dec 2008.
+  <em>IEEE GLOBECOM</em>, pages 1-5, Dec. 2008.
 [&nbsp;<a href="./robby_bib.html#Quinn2008maximizing_the_periodogram">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/GLOCOM.2008.ECP.668">doi</a>&nbsp;]
 
     </td>
@@ -457,13 +467,6 @@ Next to many of the papers listed above is a link named `code'.  This links to a
 </table>
 
 
-<br>
-<b>Teaching</b>
-<table cellpadding="4" cellspacing="0" width="600">
-<tr valign="top"><td> <a href="./signalsandsystems/index.html">Signals and Systems (EEET 3041)</a>. University of South Australia. 2013. </td></tr>
-<tr valign="top"><td> Modern Communication Systems (EEET 4036). University of South Australia. 2012. </td></tr>
-<tr valign="top"><td> Digital Communications (COMS 4100). University of Queensland. 2010. </td></tr>
-</table>
 
 <!--
 <br>
