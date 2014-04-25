@@ -69,7 +69,7 @@ R.&nbsp;G. McKilliam.
 J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, R.&nbsp;G. McKilliam, and A.&nbsp;Grant.
  Decoder-assisted timing synchronization in multiuser CDMA systems.
  accepted to <em>IEEE Trans. Comm.</em>, Apr. 2014.
-[&nbsp;<a href="robby_bib.html#Kodithuwakku_tcomms_2014">bib</a>&nbsp;]
+[&nbsp;<a href="robby_bib.html#Kodithuwakku_tcomms_2014">bib</a>&nbsp;|&nbsp<a href="http://dx.doi.org/10.1109/TCOMM.2014.2316265">doi</a>&nbsp]
 </td>
 </tr>
 
@@ -80,7 +80,7 @@ A.&nbsp;Pollok and R.&nbsp;G. McKilliam.
  Modified Cram&eacute;r-Rao bounds for continuous-phase modulated
   signals.
  accepted to <em>IEEE Trans. Comm.</em>, Feb. 2014.
-[&nbsp;<a href="robby_bib.html#Pollok_McKilliam_crb_cpm_2014">bib</a>&nbsp;]
+[&nbsp;<a href="robby_bib.html#Pollok_McKilliam_crb_cpm_2014">bib</a>&nbsp;|&nbsp<a href="http://dx.doi.org/10.1109/TCOMM.2014.030814.130804">doi</a>&nbsp]
 </td>
 </tr>
 
