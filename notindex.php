@@ -120,7 +120,7 @@ R.&nbsp;G. McKilliam, A.&nbsp;Pollok, and W.&nbsp;Cowley.
 <td class="bibtexitem">
 R.&nbsp;G. McKilliam and A.&nbsp;Pollok.
  On the Cram&eacute;r-Rao bound for polynomial phase signals. <em>Signal Processing</em>, 95:27-31, Feb. 2014. 
-[&nbsp;<a href="robby_bib.html#McKilliam_polycrbs_2012">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1016/j.sigpro.2013.08.007">doi</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/polynomialphasecrbs">code</a>&nbsp;]
+[&nbsp;<a href="robby_bib.html#McKilliam_polycrbs_2012">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1016/j.sigpro.2013.08.007">doi</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/polynomialphasecrbs">code</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/papers/polyphasecrberrata.pdf">errata</a>&nbsp;]
 </td>
 </tr>
 
