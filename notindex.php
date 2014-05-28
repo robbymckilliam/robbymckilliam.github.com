@@ -429,6 +429,14 @@ R.&nbsp;G.&nbsp;McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G.&nbsp;Quin
 
 <tr valign="top">
 <td>
+R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Grant, and I.&nbsp;V.&nbsp;L. Clarkson.
+ Finding a closest point in a lattice of voronoi's first kind. Jan. 2014.
+[&nbsp;<a href="http://arxiv.org/abs/1405.7014">arxiv</a>&nbsp;]
+</td>
+</tr>
+
+<tr valign="top">
+<td>
 R.&nbsp;G. McKilliam, A. Pollok, B. Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G. Quinn.
  Carrier phase and amplitude estimation for phase shift keying using
   pilots and data. Jan. 2013.
