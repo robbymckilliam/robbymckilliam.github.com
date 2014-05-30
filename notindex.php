@@ -89,7 +89,7 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, R.&nbsp;G. McKilliam, and A.&nbsp;Grant.
 A.&nbsp;Pollok and R.&nbsp;G. McKilliam.
  Modified Cram&eacute;r-Rao bounds for continuous-phase modulated
   signals.
- accepted to <em>IEEE Trans. Comm.</em>, Apr. 2014.
+ <em>IEEE Trans. Comm.</em>, 62(5):1681-1690, May 2014.
 [&nbsp;<a href="robby_bib.html#Pollok_McKilliam_crb_cpm_2014">bib</a>&nbsp;|&nbsp<a href="http://dx.doi.org/10.1109/TCOMM.2014.030814.130804">doi</a>&nbsp]
 </td>
 </tr>
@@ -214,7 +214,7 @@ D. Haley, L.&nbsp;M. Davis, A. Pollok, Y. Chen, G. Lechner, M.
  In <em>Wireless Innovation Forum Conference on Communications
   Technologies and Software Defined Radio</em>, Mar. 2014.
 [&nbsp;<a href="robby_bib.html#Haley_sdr_asrp_winncomm">bib</a>&nbsp;]
-<br />  <b>Winner:</b> Wireless Innovation Forum Technology of the year 2013 prize [<a href="http://www.unisa.edu.au/Media-Centre/Releases/Australian-innovators-take-home-international--technology-award/#.UyE62nWSyzV">link</a>]  <br /> 
+<br />  <b>Winner:</b> Wireless Innovation Forum Technology of the year 2013 prize [&nbsp;<a href="http://www.unisa.edu.au/Media-Centre/Releases/Australian-innovators-take-home-international--technology-award/#.UyE62nWSyzV">link</a>&nbsp;]  <br /> 
 </td>
 </tr>
 
@@ -473,7 +473,6 @@ The lattice <em>A</em><sub>n</sub>* and applications to synchronisation. <em>Aus
 Next to many of the papers listed above is a link named `code'.  This links to a repository containing the latex file and the software used for running simulations and generating plots relevant to that paper.  All of the software is released under the <a href="http://matt.might.net/articles/crapl/">CRAPL</a> and comes with no guarantee as to legibility, coding style or anything else.  I recommend <a href="http://abandonmatlab.wordpress.com/">this blog</a>.<!-- Much of the code is Java, some Mathematica, some Ruby, some Python. Recently I have been using <a href="http://www.scala-lang.org/">Scala</a>.  My oppinion of MATLAB is well represented by <a href="http://abandonmatlab.wordpress.com/">this website</a>. -->
 </td></tr>
 </table>
-
 
 
 <!--
