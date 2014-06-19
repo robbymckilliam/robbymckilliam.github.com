@@ -73,6 +73,7 @@ R.&nbsp;G. McKilliam.
 <table cellpadding="4" cellspacing="0" width="600" >
 
 <tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 <td>
 R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G. Quinn.
  Carrier phase and amplitude estimation for phase shift keying using
