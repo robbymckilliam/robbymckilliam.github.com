@@ -73,6 +73,16 @@ R.&nbsp;G. McKilliam.
 <table cellpadding="4" cellspacing="0" width="600" >
 
 <tr valign="top">
+<td>
+R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G. Quinn.
+ Carrier phase and amplitude estimation for phase shift keying using
+  pilots and data. accepted to <em>IEEE Trans. Signal Process.</em> Jun. 2014.
+[&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;]
+<!-- [&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ComplexAmplitudeEstimationPSK">code</a>&nbsp;] -->
+</td>
+</tr>
+
+<tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 </td>
 <td class="bibtexitem">
@@ -435,16 +445,6 @@ R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Grant, and I.&nbsp;V.&nbsp;L. Clarkson.
 </td>
 </tr>
 
-<tr valign="top">
-<td>
-R.&nbsp;G. McKilliam, A. Pollok, B. Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G. Quinn.
- Carrier phase and amplitude estimation for phase shift keying using
-  pilots and data. Jan. 2013.
-[&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;]
-<!-- [&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ComplexAmplitudeEstimationPSK">code</a>&nbsp;] -->
-</td>
-</tr>
-
 </table>
 
 
@@ -458,6 +458,10 @@ Finding shortest and closest vectors in a lattice of Voronoi's first kind. <em>W
 
 <tr valign="top"><td> 
 The error performance of the <em>A</em><sub>n</sub> lattices. <em>International Symposium on the Mathematical Theory of Networks and Systems (MTNS)</em>, Melbourne University, Australia, 2012. [&nbsp;<a href="talks/mnts2012.pdf">pdf</a>&nbsp;] 
+</td></tr>
+
+<tr valign="top"><td> 
+The error performance of the <em>A</em><sub>n</sub> lattices. <em>Australian Communications Theory Workshop (AusCTW)</em>, Victoria University, New Zealand, 2012. [&nbsp;<a href="talks/mnts2012.pdf">pdf</a>&nbsp;] 
 </td></tr>
 
 <tr valign="top"><td> 
