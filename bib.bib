@@ -16,8 +16,8 @@
 @STRING{dukemathj = {Duke Math. J.}}
 @STRING{el = {Electron. Lett.}}
 @STRING{gmip = {Graph. Models Image Process.}}
-@STRING{ieeecl = {IEEE Comms. Letters}}
-@STRING{ieeecommsmag = {IEEE Comms. Mag.}}
+@STRING{ieeecl = {IEEE Commun. Letters}}
+@STRING{ieeecommsmag = {IEEE Commun. Mag.}}
 @STRING{ieeejsac = {IEEE J. Sel. Areas Commun.}}
 @STRING{ieeespl = {IEEE Signal Process. Letters}}
 @STRING{ieeecommsl = {IEEE Commun. Letters}}
@@ -68,7 +68,8 @@
 @STRING{probpi = {Problemy Peredachi Informatsii}}
 @STRING{proceusipco = {Proc. Eurpean Signal Process. Conf.}}
 @STRING{procicassp = {Proc. Internat. Conf. Acoust. Spe. Sig. Process.}}
-@STRING{procicomms = {Proc. Internat. Conf. Comms.}}
+@STRING{procglobecom = {Proc. Global Commun. Conf.}}
+@STRING{procicomms = {Proc. Internat. Conf. Commun.}}
 @STRING{procicspat = {Proc. Internat. Conf. Signal Process. Appl. Tech.}}
 @STRING{procvtc = {Proc. Internat. Conf. Vehicular Tech.}}
 @STRING{procieee = {Proc. IEEE}}
@@ -108,18 +109,18 @@ ISSN={0090-6778},}
  keywords = {Direct sequence spread-spectrum, Filtering, Fourier transform, Interference suppression, Product high-order ambiguity function},
 }
 
-@ARTICLE{Djurovic_haf_cpf_2012, 
-author={I. Djurovi\'{c} and M. Simeunovic and S. Djukanovi\'{c} and P. Wang}, 
-journal=ieeetsp, 
-title={A Hybrid {CPF-HAF} Estimation of Polynomial-Phase Signals: Detailed Statistical Analysis}, 
-year=2012, 
-month={Oct.}, 
-volume=60, 
-number=10, 
-pages={5010-5023}, 
-keywords={Accuracy;Estimation error;Parameter estimation;Signal to noise ratio;polynomials;signal processing;statistical analysis;detailed statistical analysis;high-order ambiguity function;hybrid CPF-HAF estimation;multidimensional PPS;phase differentiation;polynomial-phase signals;product RAF;signal-to-noise-ratio threshold;Polynomial-phase signals;cubic phase function;high-order ambiguity function;multicomponent signals;multidimensional signals;non-Gaussian noise;parameter estimation;}, 
-doi={10.1109/TSP.2012.2205570}, 
-ISSN={1053-587X},}
+@article{Djurovic_retarded_stuff_2013,
+year=2013,
+issn={1863-1703},
+journal={Signal, Image and Video Processing},
+doi={10.1007/s11760-013-0592-5},
+title={Combined HO-CPF and HO-WD PPS estimator},
+url={http://dx.doi.org/10.1007/s11760-013-0592-5},
+publisher={Springer London},
+keywords={Polynomial-phase signals; Parameter estimation; High-order ambiguity function; Cubic phase function},
+author={Djurovi\'{c}, I. and Simeunovi\'{c}, M.},
+pages={1-6},
+}
 
 @ARTICLE{Djurovic_aliasing_2012, 
 author={S. Djukanovi\'{c} and I. Djurovi\'{c}}, 
@@ -130,6 +131,40 @@ volume=92,
 pages={235-239}
 }
 
+@article{Pickands_max_stat_Gaussian_proc_1967,
+year=1967,
+journal={Zeitschrift für Wahrscheinlichkeitstheorie und Verwandte Gebiete},
+volume=7,
+number=3,
+title={Maxima of stationary {Gaussian} processes},
+publisher={Springer-Verlag},
+author={Pickands, J.},
+pages={190-223},
+language={English}
+}
+
+@article{diebolt1996,
+ajournal = "Ann. Probab.",
+author = {J. Diebolt and C. Posse},
+journal = "The Annals of Probability",
+month = 07,
+number = 3,
+pages = "1104-1129",
+publisher = "The Institute of Mathematical Statistics",
+title = {On the density of the maximum of smooth {Gaussian} processes},
+volume = 24,
+year = 1996
+}
+
+
+@article{Rice_formula_crossings_1944,
+author={Rice, S. O.}, 
+year=1944, 
+title={Mathematical analysis of random noise}, 
+journal={Bell System Tech. J.},
+volume=23,
+pages={282–332}
+}
 
 @book{van2009empirical,
   title={Empirical Processes in M-Estimation},
@@ -493,10 +528,11 @@ ISSN={0090-6778},}
 
 @INPROCEEDINGS{Hosseini_training_seq_design, 
 author={Hosseini, E. and Perrins, E.}, 
-booktitle={Global Communications Conference (GLOBECOM), 2012 IEEE}, 
+booktitle=procglobecom, 
 title={Training sequence design for data-aided synchronization of burst-mode CPM}, 
 year=2012, 
 month={Dec}, 
+address={Anaheim},
 pages={2234-2239}, 
 keywords={continuous phase modulation;parameter estimation;synchronisation;CPM signal;CRB;Cramér-Rao bound;burst-mode CPM;burst-mode transmission;carrier phase;continuous phase modulation signal;data-aided synchronization;frequency offset;optimum training sequence;parameter estimation;symbol timing;training sequence design}, 
 doi={10.1109/GLOCOM.2012.6503447}, 
@@ -509,7 +545,7 @@ author={Tavares, G. and Tavares, L.},
 journal=ieeetcom, 
 title={Sequence Design for Data-Aided Estimation of Synchronization Parameters}, 
 year=2007, 
-month={April}, 
+month={Apr.}, 
 volume=55, 
 number=4, 
 pages={670-677}, 
@@ -580,6 +616,19 @@ volume=4,
 pages={93-96}
 }
 
+@ARTICLE{Zhou_lag_diverity_PPT_1997, 
+author={G. T. Zhou and Y. Wang}, 
+journal={IEEE Signal Processing Letters}, 
+title={Exploring lag diversity in the high-order ambiguity function for polynomial phase signals}, 
+year=1997, 
+month={Aug.}, 
+volume=4, 
+number=8, 
+pages={240-242}, 
+keywords={Doppler radar;Dynamic range;Equations;Kinetic theory;Matched filters;Mathematics;Polynomials;Radar imaging;Signal processing;Synthetic aperture radar;phase estimation;polynomials;signal reconstruction;Euclidean algorithm;aliased peak positions;coefficients;coprime lags;dynamic range;estimation accuracy;high-order ambiguity function;lag diversity;leading coefficients;linear Diophantine equations;multicomponent PPS;polynomial phase signals;two-lag approach;}, 
+doi={10.1109/97.611290}, 
+ISSN={1070-9908},}
+
 @article{Giannakis_est_pri_missing_obs_1994,
 authors={G. B. Giannakis and G. Zhou}, 
 title={Parameter estimation of cyclostationary {AM} time series with application to missing observations}, 
@@ -621,12 +670,17 @@ keywords={Monte Carlo methods;estimation theory;noise;spectral analysis;statisti
 doi={10.1109/78.726812}, 
 ISSN={1053-587X},}
 
-@unpublished{Kodithuwakku_tcomms_2014, 
+@article{Kodithuwakku_tcomms_2014, 
 author={J. Kodithuwakku and N. Letzepis and R. G. McKilliam and A. Grant}, 
-note={accepted to {IEEE Trans. Comm.}}, 
+journal=ieeetom,
 title={Decoder-Assisted Timing Synchronization in Multiuser {CDMA} Systems},
-month={Apr.},
-year=2014
+volume=62,
+number=5,
+pages={2061-2071}, 
+month={Jun.},
+year=2014,
+doi={10.1109/TCOMM.2014.2316265},
+ISSN={0090-6778}
 }
 
 @ARTICLE{Pollok_mckilliam_crb_cpm_2013, 
@@ -907,7 +961,7 @@ ISSN={0018-9448},}
 @unpublished{McKilliam_closest_point_lattice_first_kind_2014, 
 author={R. G. McKilliam and A. Grant and I. V. L. Clarkson}, 
 note={under review {SIAM J. Discrete Math.}}, 
-title={Finding a closest point in a lattice of Voronoi's first kind}, 
+title={Finding a closest point in a lattice of {Voronoi's} first kind}, 
 year=2014,  
 }
 
@@ -3052,13 +3106,11 @@ pages={60-63}
   author = {D. Divsalar and M. K. Simon},
   title = {Multi-symbol differential detection of {MPSK}},
   journal = ieeetc,
-  year = {1990},
-  volume = {38},
+  year = 1990,
+  volume = 38,
   pages = {300-308},
-  number = {3},
-  month = {March},
-  owner = {Robby},
-  timestamp = {2008.06.09}
+  number = 3,
+  month = {Mar.}
 }
 
 @article{Donald_ulln_1987,
@@ -4491,7 +4543,7 @@ ISSN={1053-587X}
   year = 1994,
   volume = 42,
   pages = {1471-1474},
-  month = {Feb/Mar/Apr},
+  month = {Feb.},
   abstract = {Multiple-symbol differential detection (MSDD) of differentially encoded
 	MPSK uses maximum likelihood sequence detection of N symbols to achieve
 	a performance gain over conventional 2 symbol differential detection.
@@ -4796,14 +4848,17 @@ keywords={Complexity theory;Linear programming;Phase shift keying;Receivers;Sign
 doi={10.1109/TCOMM.2014.020614.130277}, 
 ISSN={0090-6778},}
 
-@INPROCEEDINGS{McKilliam_leastsqPSKnoncoICASSP_2012,
-author={R. G. McKilliam and A. Pollok and B. Cowley and I. V. L. Clarkson and B. Quinn},
-title={Noncoherent least squares estimators of carrier phase and amplitude},
-booktitle={{IEEE} Internat. Conf. Acoust. Spe. Sig. Process.},
-year=2013,
-month={May},
-pages={4888-4892}
-}
+@INPROCEEDINGS{McKilliam_leastsqPSKnoncoICASSP_2012, 
+author={McKilliam, R. G. and Pollok, A. and Cowley, B. and Clarkson, I. V. L. and Quinn, B. G.}, 
+booktitle=procicassp, 
+title={Noncoherent least squares estimators of carrier phase and amplitude}, 
+year=2013, 
+pages={4888-4892},
+month=May, 
+address={Vancouver},
+keywords={Noncoherent detection;asymptotic statistics;phase shift keying}, 
+doi={10.1109/ICASSP.2013.6638590}, 
+ISSN={1520-6149},}
 
 @unpublished{Quinn_multiple_sparse_noisy_SSP_2014, 
 author={B. G. Quinn and I. V. L. Clarkson and R. G. McKilliam}, 
@@ -5397,8 +5452,49 @@ year={1974}
   doi = {10.1109/78.80864},
   owner = {Robby},
 file = {Peleg_CRB_polynomial_phase.pdf},
-  timestamp = {2008.02.19}
 }
+
+@ARTICLE{Djurovic_haf_cpf_2012, 
+author={I. Djurovi\'{c} and M. Simeunovic and S. Djukanovi\'{c} and P. Wang}, 
+journal=ieeetsp, 
+title={A Hybrid {CPF-HAF} Estimation of Polynomial-Phase Signals: Detailed Statistical Analysis}, 
+year=2012, 
+month={Oct.}, 
+volume=60, 
+number=10, 
+pages={5010-5023}, 
+keywords={Accuracy;Estimation error;Parameter estimation;Signal to noise ratio;polynomials;signal processing;statistical analysis;detailed statistical analysis;high-order ambiguity function;hybrid CPF-HAF estimation;multidimensional PPS;phase differentiation;polynomial-phase signals;product RAF;signal-to-noise-ratio threshold;Polynomial-phase signals;cubic phase function;high-order ambiguity function;multicomponent signals;multidimensional signals;non-Gaussian noise;parameter estimation;}, 
+doi={10.1109/TSP.2012.2205570}, 
+ISSN={1053-587X}
+}
+
+
+@ARTICLE{Barbarossa_PHAF_1998, 
+author={S. Barbarossa and A. Scaglione and G. B. Giannakis}, 
+journal=ieeetsp, 
+title={Product high-order ambiguity function for multicomponent polynomial-phase signal modeling}, 
+year=1998, 
+month={Mar.}, 
+volume=46, 
+number=3, 
+pages={691-708}, 
+keywords={Analytical models;Gaussian noise;Image analysis;Parameter estimation;Performance analysis;Perturbation methods;Polynomials;Radar polarimetry;Radar scattering;Signal analysis;Gaussian noise;multipath channels;parameter estimation;radar imaging;radiowave propagation;signal processing;synthetic aperture radar;transforms;white noise;highest order phase coefficients;identifiability;multicomponent PPS;multicomponent polynomial-phase signal modeling;multipath;noise rejection capabilities;parameter estimation;performance analysis;perturbation method;polynomial phase signals;product high-order ambiguity function;propagation;synthetic aperture radar imaging;transformation;white Gaussian noise;}, 
+doi={10.1109/78.661336}, 
+ISSN={1053-587X},}
+}
+
+@ARTICLE{Peleg_linear_FM_1991, 
+author={Peleg, S. and Porat, B.}, 
+journal=ieeetaes, 
+title={Linear {FM} signal parameter estimation from discrete-time observations}, 
+year=1991, 
+month={Jul.}, 
+volume=27, 
+number=4, 
+pages={607-616}, 
+keywords={Doppler effect;Monte Carlo methods;estimation theory;fast Fourier transforms;frequency modulation;parameter estimation;radar theory;signal detection;Cramer-Rao lower bound;Monte Carlo simulations;accelerating target;complex linear FM signal;estimation algorithm;fast Fourier transforms;kinematic parameters;noisy discrete-time observations;one-dimensional searches;parameter estimation;pulse-Doppler radar;signal-to-noise ratio;Acceleration;Algorithm design and analysis;Doppler radar;Fast Fourier transforms;Flexible printed circuits;Kinematics;Meteorological radar;Parameter estimation;Performance analysis;Signal to noise ratio}, 
+doi={10.1109/7.85033}, 
+ISSN={0018-9251},}
 
 @ARTICLE{Porat_asympt_HAF_DPT_1996, 
 author={Porat, B. and Friedlander, B.}, 
@@ -6556,12 +6652,11 @@ number=2,
 @inproceedings{Wilson1989,
   author = {S. G. Wilson and J. Freebersyser and C. Marshall},
   title = {Multi-symbol detection of {MPSK}},
-  booktitle = {IEEE Global Communications Conference},
+  booktitle = procglobecom,
   year = 1989,
   pages = {1692-1697},
   month = {Nov.},
-  owner = {Robby},
-  timestamp = {2008.06.09}
+address={Dallas}
 }
 
 @ARTICLE{Wintner1947_wrapped_cauchy_is_unimodal,

@@ -87,10 +87,10 @@ R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Cl
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 </td>
 <td class="bibtexitem">
-J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, R.&nbsp;G. McKilliam, and A.&nbsp;Grant.
+J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, R.&nbsp;G.&nbsp;McKilliam, and A.&nbsp;Grant.
  Decoder-assisted timing synchronization in multiuser CDMA systems.
- accepted to <em>IEEE Trans. Comm.</em>, Apr. 2014.
-[&nbsp;<a href="robby_bib.html#Kodithuwakku_tcomms_2014">bib</a>&nbsp;|&nbsp<a href="http://dx.doi.org/10.1109/TCOMM.2014.2316265">doi</a>&nbsp]
+ 62(5):2061-2071, Jun. 2014.
+[&nbsp;<a href="robby_bib.html#Kodithuwakku_tcomms_2014">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/TCOMM.2014.2316265">doi</a>&nbsp;]
 </td>
 </tr>
 
