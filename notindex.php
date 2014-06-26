@@ -157,7 +157,7 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 	<tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 		<td>
-		R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and Bill Moran.
+		R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and B. Moran.
 		  Frequency estimation by phase unwrapping.
 		  <em>IEEE Trans. Signal Process.</em>, 58(6):2953-2963, June 2010.
 		[&nbsp;<a href="./robby_bib.html#McKilliamFrequencyEstimationByPhaseUnwrapping2009">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/TSP.2010.2045786">doi</a>&nbsp;|&nbsp;<a href="http://github.com/robbymckilliam/frequency_estimation_by_phase_unwrapping">code</a>&nbsp;]
