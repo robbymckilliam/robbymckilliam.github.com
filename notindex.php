@@ -61,7 +61,7 @@ R.&nbsp;G. McKilliam.
   <em>Lattice theory, circular statistics and polynomial phase
   signals</em>.
   PhD thesis, University of Queensland, Australia, December 2010.
-[ <a href="./robby_bib.html#McKilliam2010thesis">bib</a> | <a href="papers/thesis.pdf">pdf</a> | <a href="papers/errata.pdf">errata</a> ] <br>
+[&nbsp;<a href="./robby_bib.html#McKilliam2010thesis">bib</a>&nbsp;|&nbsp;<a href="papers/thesis.pdf">pdf</a>&nbsp;|&nbsp;<a href="papers/errata.pdf">errata</a>&nbsp;] <br>
 	</td>
 	</tr>
 </table>
@@ -78,7 +78,7 @@ R.&nbsp;G. McKilliam.
 R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G. Quinn.
  Carrier phase and amplitude estimation for phase shift keying using
   pilots and data. accepted to <em>IEEE Trans. Signal Process.</em> Jun. 2014.
-[&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;<a href="http://dx.doi.org/10.1109/TSP.2014.2332976">doi</a>&nbsp;]
+[&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/TSP.2014.2332976">doi</a>&nbsp;]
 <!-- [&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ComplexAmplitudeEstimationPSK">code</a>&nbsp;] -->
 </td>
 </tr>
