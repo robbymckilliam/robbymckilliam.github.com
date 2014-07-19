@@ -61,7 +61,7 @@ R.&nbsp;G. McKilliam.
   <em>Lattice theory, circular statistics and polynomial phase
   signals</em>.
   PhD thesis, University of Queensland, Australia, December 2010.
-[ <a href="./robby_bib.html#McKilliam2010thesis">bib</a> | <a href="papers/thesis.pdf">pdf</a> | <a href="papers/errata.pdf">errata</a> ] <br>
+[&nbsp;<a href="./robby_bib.html#McKilliam2010thesis">bib</a>&nbsp;|&nbsp;<a href="papers/thesis.pdf">pdf</a>&nbsp;|&nbsp;<a href="papers/errata.pdf">errata</a>&nbsp;] <br>
 	</td>
 	</tr>
 </table>
@@ -74,12 +74,22 @@ R.&nbsp;G. McKilliam.
 
 <tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>
+R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G. Quinn.
+ Carrier phase and amplitude estimation for phase shift keying using
+  pilots and data. accepted to <em>IEEE Trans. Signal Process.</em> Jun. 2014.
+[&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/TSP.2014.2332976">doi</a>&nbsp;]
+<!-- [&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ComplexAmplitudeEstimationPSK">code</a>&nbsp;] -->
+</td>
+</tr>
+
+<tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 </td>
 <td class="bibtexitem">
-J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, R.&nbsp;G. McKilliam, and A.&nbsp;Grant.
- Decoder-assisted timing synchronization in multiuser CDMA systems.
- accepted to <em>IEEE Trans. Comm.</em>, Apr. 2014.
-[&nbsp;<a href="robby_bib.html#Kodithuwakku_tcomms_2014">bib</a>&nbsp;|&nbsp<a href="http://dx.doi.org/10.1109/TCOMM.2014.2316265">doi</a>&nbsp]
+J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, R.&nbsp;G.&nbsp;McKilliam, and A.&nbsp;Grant.
+ Decoder-assisted timing synchronization in multiuser CDMA systems.  <em>IEEE Trans. Comm.</em>, 62(5):2061-2071, Jun. 2014.
+[&nbsp;<a href="robby_bib.html#Kodithuwakku_tcomms_2014">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/TCOMM.2014.2316265">doi</a>&nbsp;]
 </td>
 </tr>
 
@@ -89,7 +99,7 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, R.&nbsp;G. McKilliam, and A.&nbsp;Grant.
 A.&nbsp;Pollok and R.&nbsp;G. McKilliam.
  Modified Cram&eacute;r-Rao bounds for continuous-phase modulated
   signals.
- accepted to <em>IEEE Trans. Comm.</em>, Apr. 2014.
+ <em>IEEE Trans. Comm.</em>, 62(5):1681-1690, May 2014.
 [&nbsp;<a href="robby_bib.html#Pollok_McKilliam_crb_cpm_2014">bib</a>&nbsp;|&nbsp<a href="http://dx.doi.org/10.1109/TCOMM.2014.030814.130804">doi</a>&nbsp]
 </td>
 </tr>
@@ -147,7 +157,7 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 	<tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 		<td>
-		R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and Bill Moran.
+		R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and B. Moran.
 		  Frequency estimation by phase unwrapping.
 		  <em>IEEE Trans. Signal Process.</em>, 58(6):2953-2963, June 2010.
 		[&nbsp;<a href="./robby_bib.html#McKilliamFrequencyEstimationByPhaseUnwrapping2009">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/TSP.2010.2045786">doi</a>&nbsp;|&nbsp;<a href="http://github.com/robbymckilliam/frequency_estimation_by_phase_unwrapping">code</a>&nbsp;]
@@ -214,7 +224,7 @@ D. Haley, L.&nbsp;M. Davis, A. Pollok, Y. Chen, G. Lechner, M.
  In <em>Wireless Innovation Forum Conference on Communications
   Technologies and Software Defined Radio</em>, Mar. 2014.
 [&nbsp;<a href="robby_bib.html#Haley_sdr_asrp_winncomm">bib</a>&nbsp;]
-<br />  <b>Winner:</b> Wireless Innovation Forum Technology of the year 2013 prize [<a href="http://www.unisa.edu.au/Media-Centre/Releases/Australian-innovators-take-home-international--technology-award/#.UyE62nWSyzV">link</a>]  <br /> 
+<br />  <b>Winner:</b> Wireless Innovation Forum Technology of the year 2013 prize [&nbsp;<a href="http://www.unisa.edu.au/Media-Centre/Releases/Australian-innovators-take-home-international--technology-award/#.UyE62nWSyzV">link</a>&nbsp;]  <br /> 
 </td>
 </tr>
 
@@ -435,16 +445,6 @@ R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Grant, and I.&nbsp;V.&nbsp;L. Clarkson.
 </td>
 </tr>
 
-<tr valign="top">
-<td>
-R.&nbsp;G. McKilliam, A. Pollok, B. Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G. Quinn.
- Carrier phase and amplitude estimation for phase shift keying using
-  pilots and data. Jan. 2013.
-[&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;]
-<!-- [&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ComplexAmplitudeEstimationPSK">code</a>&nbsp;] -->
-</td>
-</tr>
-
 </table>
 
 
@@ -461,6 +461,10 @@ The error performance of the <em>A</em><sub>n</sub> lattices. <em>International 
 </td></tr>
 
 <tr valign="top"><td> 
+The error performance of the <em>A</em><sub>n</sub> lattices. <em>Australian Communications Theory Workshop (AusCTW)</em>, Victoria University, New Zealand, 2012. [&nbsp;<a href="talks/mnts2012.pdf">pdf</a>&nbsp;] 
+</td></tr>
+
+<tr valign="top"><td> 
 The lattice <em>A</em><sub>n</sub>* and applications to synchronisation. <em>Australian Communications Theory Workshop (AusCTW)</em>, Melbourne University, Australia, 2011. [&nbsp;<a href="talks/ausctw2011.pdf">pdf</a>&nbsp;]
 </td></tr>
 
@@ -473,7 +477,6 @@ The lattice <em>A</em><sub>n</sub>* and applications to synchronisation. <em>Aus
 Next to many of the papers listed above is a link named `code'.  This links to a repository containing the latex file and the software used for running simulations and generating plots relevant to that paper.  All of the software is released under the <a href="http://matt.might.net/articles/crapl/">CRAPL</a> and comes with no guarantee as to legibility, coding style or anything else.  I recommend <a href="http://abandonmatlab.wordpress.com/">this blog</a>.<!-- Much of the code is Java, some Mathematica, some Ruby, some Python. Recently I have been using <a href="http://www.scala-lang.org/">Scala</a>.  My oppinion of MATLAB is well represented by <a href="http://abandonmatlab.wordpress.com/">this website</a>. -->
 </td></tr>
 </table>
-
 
 
 <!--
