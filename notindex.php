@@ -77,8 +77,8 @@ R.&nbsp;G. McKilliam.
 <td>
 R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G. Quinn.
  Carrier phase and amplitude estimation for phase shift keying using
-  pilots and data. accepted to <em>IEEE Trans. Signal Process.</em> Jun. 2014.
-[&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/TSP.2014.2332976">doi</a>&nbsp;]
+  pilots and data. <em>IEEE Trans. Sig. Process.</em>, 61(15):3976-3989, Aug. 2014.
+[&nbsp;<a href="http://dx.doi.org/10.1109/TSP.2014.2332976">doi</a>&nbsp;|&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ComplexAmplitudeEstimationPSK">code</a>&nbsp;]
 <!-- [&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ComplexAmplitudeEstimationPSK">code</a>&nbsp;] -->
 </td>
 </tr>
