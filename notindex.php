@@ -61,7 +61,7 @@ R.&nbsp;G. McKilliam.
   <em>Lattice theory, circular statistics and polynomial phase
   signals</em>.
   PhD thesis, University of Queensland, Australia, December 2010.
-[ <a href="./robby_bib.html#McKilliam2010thesis">bib</a> | <a href="papers/thesis.pdf">pdf</a> | <a href="papers/errata.pdf">errata</a> ] <br>
+[&nbsp;<a href="./robby_bib.html#McKilliam2010thesis">bib</a>&nbsp;|&nbsp;<a href="papers/thesis.pdf">pdf</a>&nbsp;|&nbsp;<a href="papers/errata.pdf">errata</a>&nbsp;] <br>
 	</td>
 	</tr>
 </table>
@@ -77,8 +77,8 @@ R.&nbsp;G. McKilliam.
 <td>
 R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G. Quinn.
  Carrier phase and amplitude estimation for phase shift keying using
-  pilots and data. accepted to <em>IEEE Trans. Signal Process.</em> Jun. 2014.
-[&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;]
+  pilots and data. <em>IEEE Trans. Sig. Process.</em>, 61(15):3976-3989, Aug. 2014.
+[&nbsp;<a href="robby_bib.html#McKilliam_leastsqPSKpilotsdata_2012">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/TSP.2014.2332976">doi</a>&nbsp;|&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ComplexAmplitudeEstimationPSK">code</a>&nbsp;]
 <!-- [&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ComplexAmplitudeEstimationPSK">code</a>&nbsp;] -->
 </td>
 </tr>
@@ -87,10 +87,9 @@ R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Cl
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 </td>
 <td class="bibtexitem">
-J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, R.&nbsp;G. McKilliam, and A.&nbsp;Grant.
- Decoder-assisted timing synchronization in multiuser CDMA systems.
- accepted to <em>IEEE Trans. Comm.</em>, Apr. 2014.
-[&nbsp;<a href="robby_bib.html#Kodithuwakku_tcomms_2014">bib</a>&nbsp;|&nbsp<a href="http://dx.doi.org/10.1109/TCOMM.2014.2316265">doi</a>&nbsp]
+J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, R.&nbsp;G.&nbsp;McKilliam, and A.&nbsp;Grant.
+ Decoder-assisted timing synchronization in multiuser CDMA systems.  <em>IEEE Trans. Comm.</em>, 62(5):2061-2071, Jun. 2014.
+[&nbsp;<a href="robby_bib.html#Kodithuwakku_tcomms_2014">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/TCOMM.2014.2316265">doi</a>&nbsp;]
 </td>
 </tr>
 
@@ -158,7 +157,7 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 	<tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 		<td>
-		R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and Bill Moran.
+		R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and B. Moran.
 		  Frequency estimation by phase unwrapping.
 		  <em>IEEE Trans. Signal Process.</em>, 58(6):2953-2963, June 2010.
 		[&nbsp;<a href="./robby_bib.html#McKilliamFrequencyEstimationByPhaseUnwrapping2009">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/TSP.2010.2045786">doi</a>&nbsp;|&nbsp;<a href="http://github.com/robbymckilliam/frequency_estimation_by_phase_unwrapping">code</a>&nbsp;]
