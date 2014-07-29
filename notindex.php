@@ -75,6 +75,15 @@ R.&nbsp;G. McKilliam.
 <tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 <td>
+R.&nbsp;G.&nbsp;McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G.&nbsp;Quinn.
+ Fast sparse period estimation. accepted to <em>IEEE Sig. Process. Letters</em>. Jul. 2014.
+[&nbsp;<a href="https://github.com/robbymckilliam/fast_spare_period_estimation">code</a>&nbsp;] 
+</td>
+</tr>
+
+<tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>
 R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G. Quinn.
  Carrier phase and amplitude estimation for phase shift keying using
   pilots and data. <em>IEEE Trans. Sig. Process.</em>, 61(15):3976-3989, Aug. 2014.
@@ -428,14 +437,6 @@ R.&nbsp;McKilliam and G.&nbsp;Wyeth. Fast and robust stereo object recognition
 <b> Preprints </b>
 
 <table cellpadding="4" cellspacing="0" width="600">
-
-<tr valign="top">
-<td>
-R.&nbsp;G.&nbsp;McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G.&nbsp;Quinn.
- Fast sparse period estimation. Mar. 2014.
-[&nbsp;<a href="https://github.com/robbymckilliam/fast_spare_period_estimation">code</a>&nbsp;] 
-</td>
-</tr>
 
 <tr valign="top">
 <td>
