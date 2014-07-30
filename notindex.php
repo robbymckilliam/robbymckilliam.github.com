@@ -23,8 +23,7 @@ Robby McKilliam is a post doc at the Institute for Telecommunications Research a
 		<br> Mawson Lakes, SA, Australia, 5095 </p>
 		<p> <b>Email</b> robby.mckilliam_at_unisa.edu.au</p>
 		<p>&nbsp;
-		<!--<p> <it>Unfortunately practice generally precedes theory, and it is the usual fate of mankind to get things done in some boggling way first, and find out afterward how they could have been done much more easily</it>  <br>
-		  Charles S. Peirce, `Introductory Lecture on the Study of Logic', 1882. </p>
+		<!--<p> <it>
 		</td>-->
 		<td width="15">&nbsp;</td>
 		<td valign="top" width="432">
@@ -75,8 +74,17 @@ R.&nbsp;G. McKilliam.
 <tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 <td>
+R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Grant, and I.&nbsp;V.&nbsp;L. Clarkson.
+ Finding a closest point in a lattice of Voronoi's first kind. accepted to <em>SIAM Journal on Discrete Mathematics</em>. July. 2014.
+[&nbsp;<a href="http://arxiv.org/abs/1405.7014">arxiv</a>&nbsp;]
+</td>
+</tr>
+
+<tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>
 R.&nbsp;G.&nbsp;McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G.&nbsp;Quinn.
- Fast sparse period estimation. accepted to <em>IEEE Sig. Process. Letters</em>. Jul. 2014.
+ Fast sparse period estimation. accepted to <em>IEEE Signal Process. Letters</em>. Jul. 2014.
 [&nbsp;<a href="https://github.com/robbymckilliam/fast_spare_period_estimation">code</a>&nbsp;] 
 </td>
 </tr>
@@ -86,7 +94,7 @@ R.&nbsp;G.&nbsp;McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G.&nbsp;Quin
 <td>
 R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G. Quinn.
  Carrier phase and amplitude estimation for phase shift keying using
-  pilots and data. <em>IEEE Trans. Sig. Process.</em>, 61(15):3976-3989, Aug. 2014.
+  pilots and data. <em>IEEE Trans. Signal Process.</em>, 61(15):3976-3989, Aug. 2014.
 [&nbsp;<a href="robby_bib.html#McKilliam_leastsqPSKpilotsdata_2012">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/TSP.2014.2332976">doi</a>&nbsp;|&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ComplexAmplitudeEstimationPSK">code</a>&nbsp;]
 <!-- [&nbsp;<a href="http://arxiv.org/abs/1301.1760">arxiv</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/ComplexAmplitudeEstimationPSK">code</a>&nbsp;] -->
 </td>
@@ -253,7 +261,7 @@ B.&nbsp;G.&nbsp;Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G.&nbsp;McKillia
 <td>
 R.&nbsp;G. McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;Quinn.
  Noncoherent least squares estimators of carrier phase and amplitude.
- IEEE Internat. Conf. Acoust. Spe. Sig. Process., pages 4888-4892, May
+ IEEE Internat. Conf. Acoust. Spe. Signal Process., pages 4888-4892, May
   2013.
 [&nbsp;<a href="robby_bib.html#McKilliam_leastsqPSKnoncoICASSP_2012">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/ICASSP.2013.6638590">doi</a>&nbsp]
 </td>
@@ -313,7 +321,7 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
     <td>
       R.&nbsp;G. McKilliam and B.&nbsp;G. Quinn.
       Estimating the circular mean from correlated observations.
-      In <em>Defence App. Sig. Proc.</em>, July 2011. 
+      In <em>Defence App. Signal Proc.</em>, July 2011. 
       [&nbsp;<a href="robby_bib.html#McKilliam_direstcro_dasp_2011">bib</a>&nbsp;|&nbsp;<a href="papers/circmeancorr.pdf">pdf</a>&nbsp;]
   </tr>
 -->
@@ -323,7 +331,7 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
 <td>
       B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G. McKilliam.
       Estimating period from sparse, noisy timing data.
-      In <em>Defence App. Sig. Proc.</em>, July 2011.
+      In <em>Defence App. Signal Proc.</em>, July 2011.
       [&nbsp;<a href="robby_bib.html#Quinn_snpe_dasp_2011">bib</a>&nbsp;]
     </td>
   </tr>
@@ -335,7 +343,7 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
       R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;Moran.
       The asymptotic properties of polynomial phase estimation by least
       squares phase unwrapping.
-     <em>Proc. Internat. Conf. Acoust. Spe. Sig. Process.</em>, pages 3592-3595, May 2011.
+     <em>Proc. Internat. Conf. Acoust. Speech Signal Process.</em>, pages 3592-3595, May 2011.
       [&nbsp;<a href="robby_bib.html#McKilliam_polyphase_est_icassp_2011">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/ICASSP.2011.5946255">doi</a>&nbsp;]
 
     </td>
@@ -433,20 +441,14 @@ R.&nbsp;McKilliam and G.&nbsp;Wyeth. Fast and robust stereo object recognition
 	</tr>
 </table>
 
-<br>
+<!--<br>
 <b> Preprints </b>
 
 <table cellpadding="4" cellspacing="0" width="600">
 
-<tr valign="top">
-<td>
-R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Grant, and I.&nbsp;V.&nbsp;L. Clarkson.
- Finding a closest point in a lattice of Voronoi's first kind. Jan. 2014.
-[&nbsp;<a href="http://arxiv.org/abs/1405.7014">arxiv</a>&nbsp;]
-</td>
-</tr>
 
-</table>
+
+</table>-->
 
 
 <br>
