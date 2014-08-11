@@ -85,7 +85,7 @@ R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Grant, and I.&nbsp;V.&nbsp;L. Clarkson.
 <td>
 R.&nbsp;G.&nbsp;McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G.&nbsp;Quinn.
  Fast sparse period estimation. accepted to <em>IEEE Signal Process. Letters</em>. Jul. 2014.
-[&nbsp;<a href="https://github.com/robbymckilliam/fast_spare_period_estimation">code</a>&nbsp;] 
+[&nbsp;<a href="http://dx.doi.org/10.1109/LSP.2014.2345737">doi</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/fast_spare_period_estimation">code</a>&nbsp;] 
 </td>
 </tr>
 
