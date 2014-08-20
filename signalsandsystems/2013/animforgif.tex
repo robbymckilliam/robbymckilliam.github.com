@@ -11,7 +11,7 @@
   \newcommand{\background}{
     \begin{scope}[yscale=0.6,xscale=\plotxscale]
       \draw[->] (-3.8,0) -- (3.8,0) node[above] {$t$};
-      \draw[->] (0,-4.2) -- (0,3);
+      \draw[->] (0,-3.2) -- (0,3);
       % \draw[color=black] plot[id=x] function{1/x^2} 
       % node[right] {$f(t) = t^{-2}$};
       \draw[smooth,color=black,thick] plot function{exp(-x*x)};
@@ -26,8 +26,8 @@
       \vtick{3} node[pos=0.5,below] {$3$};
       \htick{2} node[pos=0.5,right] {$2$};
       \htick{-2} node[pos=0.5,left] {$-2$};
-      \htick{-4} node[pos=0.5,left] {$-4$};
-      \node at (-1,1.8) {$f(t)$};
+      %\htick{-4} node[pos=0.5,left] {$-4$};
+      \node at (-1.6,1.8) {$f(t)$};
       \node at (0.8,1.1) {$p(t)$};
       \node at (-2.6,-2) {$p_1(t)$};
     \end{scope}
@@ -42,7 +42,7 @@
       \node[draw,circle,inner sep=2pt,fill] at (#1,0) {};
     \end{scope}
     % draw animated mass spring damper
-    \begin{scope}[xshift=-3cm,yshift=-4.5cm]
+    \begin{scope}[xshift=-3cm,yshift=-3.8cm]
       \tikzstyle{spring}=[thick,decorate,decoration={coil,pre length=0.3cm,post length=0.3cm,segment length=6,aspect=0.9}]
       \tikzstyle{damper}=[thick,decoration={markings,  
         mark connection node=dmp,
