@@ -15,7 +15,8 @@
       % \draw[color=black] plot[id=x] function{1/x^2} 
       % node[right] {$f(t) = t^{-2}$};
       \draw[smooth,color=black,thick] plot function{exp(-x*x)};
-      \draw[smooth,color=black,thick] plot function{exp(-x*x)*(1-8*x -8*x*x + 4*x*x*x + 4*x*x*x*x)};
+      \draw[smooth,color=black,thick,domain=-3.3:3.3,samples=100] plot function{exp(-x*x)*(1+4*x-8*x*x-4*x*x*x+4*x*x*x*x)};
+     % \draw[smooth,color=black,thick,domain=-3.3:3.3,samples=100] plot function{exp(-x*x)*(1-8*x -8*x*x + 4*x*x*x + 4*x*x*x*x)};
       \draw[smooth,color=black,thick] plot function{2*exp(-x*x)*x*x - 2.5};
       \vtick{-3} node[pos=0.5,below] {$-3$};
       \vtick{-2} node[pos=0.5,below] {$-2$};
