@@ -84,7 +84,7 @@ R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Grant, and I.&nbsp;V.&nbsp;L. Clarkson.
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 <td>
 R.&nbsp;G.&nbsp;McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G.&nbsp;Quinn.
- Fast sparse period estimation. accepted to <em>IEEE Signal Process. Letters</em>. Jul. 2014.
+ Fast sparse period estimation. <em>IEEE Signal Process. Letters</em>, 22(1):62-66, Jan. 2015.
 [&nbsp;<a href="http://dx.doi.org/10.1109/LSP.2014.2345737">doi</a>&nbsp;|&nbsp;<a href="https://github.com/robbymckilliam/fast_spare_period_estimation">code</a>&nbsp;] 
 </td>
 </tr>
