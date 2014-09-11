@@ -225,9 +225,8 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 </td>
 <td class="bibtexitem">
 B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G. McKilliam.
- On the periodogram estimators of periods from interleaved sparse, noisy timing data.
- accepted to <em>IEEE Statistical Signal Processing Workshop (SSP)</em>, Jul. 2014.
-[&nbsp;<a href="robby_bib.html#Quinn_multiple_sparse_noisy_SSP_2014">bib</a>&nbsp;]
+ On the periodogram estimators of periods from interleaved sparse, noisy timing data. <em>IEEE Statistical Signal Processing Workshop</em>, pages 232-235, Jul. 2014.
+[&nbsp;<a href="robby_bib.html#Quinn_multiple_sparse_noisy_SSP_2014">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/SSP.2014.6884618">doi</a>&nbsp]
 </td>
 </tr>
 
