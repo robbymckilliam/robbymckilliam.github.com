@@ -75,9 +75,9 @@ R.&nbsp;G. McKilliam.
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
 <td>
 R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Grant, and I.&nbsp;V.&nbsp;L. Clarkson.
- Finding a closest point in a lattice of Voronoi's first kind. accepted to <em>SIAM Journal on Discrete Mathematics</em>. July. 2014.
-[&nbsp;<a href="http://arxiv.org/abs/1405.7014">arxiv</a>&nbsp;]
-</td>
+ Finding a closest point in a lattice of Voronoi's first kind. <em>SIAM Journal on Discrete Mathematics</em>, 28(3):1405-1422, 2014.
+[&nbsp;<a href="robby_bib.html#McKilliam_closest_point_lattice_first_kind_2014">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1137/140952806">doi</a>&nbsp;]
 </tr>
 
 <tr valign="top">
