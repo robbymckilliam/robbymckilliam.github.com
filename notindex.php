@@ -512,8 +512,9 @@ Next to many of the papers listed above is a link named `code'.  This links to a
 <br>
 <b>Other Activities</b>
 <table>
+<tr valign="top"><td>Technical Programme Committee, Internat. Conf. on Acoust., Sp. and Sig. Process. (ICASSP), Brisbane 2015</td></tr>
 <tr valign="top"><td>Local Finance Chair, Information Theory Workshop (ITW), Hobart 2014</td></tr>
-<tr valign="top"><td>Local Finance Chair, International Symposium on Information Theory and it Applications (ISITA), Melbourne 2014</td></tr>
+<tr valign="top"><td>Local Finance Chair, International Symposium on Information Theory and its Appl. (ISITA), Melbourne 2014</td></tr>
 <tr valign="top"><td>Technical Programme Chair, Australian Communications Theory Workshop (AusCTW), Adelaide 2013</td></tr>
 <tr valign="top"><td>Technical Programme Committee, Australian Communications Theory Workshop (AusCTW), Wellington 2012</td></tr>
 <tr valign="top"><td>Publications Co-Chair, Defense Applications of Signal Processing Workshop (DASP), Coolum 2011</td></tr>
