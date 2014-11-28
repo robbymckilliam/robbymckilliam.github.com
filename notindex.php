@@ -472,6 +472,23 @@ The lattice <em>A</em><sub>n</sub>* and applications to synchronisation. <em>Aus
 
 </table>
 
+
+<br>
+<b>Awards, scholarships, and prizes</b>
+<table cellpadding="4" cellspacing="0" width="600">
+
+<tr valign="top"><td> Early Career Researcher of the Year, Division of ITEE, University of South Australia, 2014 </td></tr>
+<tr valign="top"><td> Technology of the Year Award, Wireless Innovation Forum, 2013 [&nbsp;<a href="http://www.unisa.edu.au/Media-Centre/Releases/Australian-innovators-take-home-international--technology-award/#.UyE62nWSyzV">link</a>&nbsp;] </td></tr>
+<tr valign="top"><td> Deans Commendation for Outstanding PhD thesis, University of Queensland, 2010 </td></tr>
+<tr valign="top"><td> Canon Information Systems Research Australia (CiSRA) best student paper prize, 2009 </td></tr>
+<tr valign="top"><td> Australian postgraduate award (APA), 2007-2010 </td></tr>
+<tr valign="top"><td> CSIRO Research Scholarship, 2007 </td></tr>
+<tr valign="top"><td> Maude Walker Postgraduate Scholarship, 2007 </td></tr>
+
+</table>
+
+
+
 <br>
 <b>Software</b>
 <table cellpadding="4" cellspacing="0" width="600">
