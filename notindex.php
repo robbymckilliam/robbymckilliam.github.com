@@ -225,8 +225,19 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 </td>
 <td class="bibtexitem">
 B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G. McKilliam.
- On the periodogram estimators of periods from interleaved sparse, noisy timing data. <em>IEEE Statistical Signal Processing Workshop</em>, pages 232-235, Jul. 2014.
+ On the periodogram estimators of periods from interleaved sparse, noisy timing data. <em>IEEE Statistical Signal Processing Workshop</em>, pages 232-235, Gold Coast, Australia, Jul. 2014.
 [&nbsp;<a href="robby_bib.html#Quinn_multiple_sparse_noisy_SSP_2014">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/SSP.2014.6884618">doi</a>&nbsp]
+</td>
+</tr>
+
+<tr valign="top">
+<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>
+D.&nbsp;Haley, A.&nbsp;Grant, W.&nbsp;Cowley, L.&nbsp;Davis, I.&nbsp;Land, M.&nbsp;Lavenant, G.&nbsp;Lechner,
+  R.&nbsp;McKilliam, and A.&nbsp;Pollok.
+ Enabling technologies for a microsatellite-based global sensor network.
+ In <em>Small Satellites Systems and Services Symposium</em>, Majorca, Spain, May 2014.
+[&nbsp;<a href="robby_bib.html#Haley_gns_4spaper2014">bib</a>&nbsp;]
 </td>
 </tr>
 
@@ -249,7 +260,7 @@ D. Haley, L.&nbsp;M. Davis, A. Pollok, Y. Chen, G. Lechner, M.
 <td>
 B.&nbsp;G.&nbsp;Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G.&nbsp;McKilliam.
  On the Periodogram Estimator of Period from Sparse, Noisy Timing Data.
- Asilomar Conference on Signals, Systems, and Computers, Nov.
+ Asilomar Conference on Signals, Systems, and Computers, California, USA, Nov.
   2013.
 [&nbsp;<a href="robby_bib.html#Quinn20013asilomar_period_est">bib</a>&nbsp;]
 </td>
@@ -260,7 +271,7 @@ B.&nbsp;G.&nbsp;Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G.&nbsp;McKillia
 <td>
 R.&nbsp;G. McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;Quinn.
  Noncoherent least squares estimators of carrier phase and amplitude.
- IEEE Internat. Conf. Acoust. Spe. Signal Process., pages 4888-4892, May
+ IEEE Internat. Conf. Acoust. Spe. Signal Process., pages 4888-4892, Vancouver, Canada, May
   2013.
 [&nbsp;<a href="robby_bib.html#McKilliam_leastsqPSKnoncoICASSP_2012">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/ICASSP.2013.6638590">doi</a>&nbsp]
 </td>
@@ -272,7 +283,7 @@ R.&nbsp;G. McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Clarkso
 J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
  Decoder-aided synchronization for multiuser CDMA systems.
  In <em>Proc. Australian Commun. Theory Workshop</em>,
-  pages 31-36, Jan. 2013.
+  pages 31-36, Adelaide, Australia, Jan. 2013.
 [&nbsp;<a href="robby_bib.html#6510040">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/AusCTW.2013.6510040">doi</a>&nbsp;]
 </td>
 </tr>
@@ -284,7 +295,7 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
 B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G. McKilliam.
  Estimating period from sparse, noisy timing data.
  In <em>IEEE Statistical Signal Processing Workshop (SSP)</em>, pages
-  193-196, Aug. 2012.
+  193-196, Ann Arbor, USA, Aug. 2012.
 [&nbsp;<a href="robby_bib.html#Quinn_est_per_SSP_2012">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/SSP.2012.6319657">doi</a>&nbsp;]
 </td>
 </tr>
@@ -295,7 +306,7 @@ B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G. McKilliam.
 R.&nbsp;G. McKilliam and A.&nbsp;Grant.
  Finding short vectors in a lattice of Voronoi's first kind.
  In <em>IEEE International Symposium on Information Theory
-  Proceedings (ISIT)</em>, pages 2157-2160, July 2012.
+  Proceedings (ISIT)</em>, pages 2157-2160, Boston, USA, July 2012.
 [&nbsp;<a href="robby_bib.html#McKilliam_short_vectors_first_type_isit_2012">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/ISIT.2012.6283833">doi</a>&nbsp;|&nbsp;<a href="http://arxiv.org/abs/1201.5154">arxiv</a>&nbsp;]
 
 </td>
@@ -347,7 +358,6 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
 
     </td>
   </tr>
-
 
   <tr valign="top">
 <td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
