@@ -260,9 +260,9 @@ D. Haley, L.&nbsp;M. Davis, A. Pollok, Y. Chen, G. Lechner, M.
 <td>
 B.&nbsp;G.&nbsp;Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G.&nbsp;McKilliam.
  On the Periodogram Estimator of Period from Sparse, Noisy Timing Data.
- Asilomar Conference on Signals, Systems, and Computers, California, USA, Nov.
+ <em>Asilomar Conference on Signals, Systems, and Computers</em>, pages 879-883, California, USA, Nov.
   2013.
-[&nbsp;<a href="robby_bib.html#Quinn20013asilomar_period_est">bib</a>&nbsp;]
+[&nbsp;<a href="robby_bib.html#Quinn20013asilomar_period_est">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1109/ACSSC.2013.6810414">doi</a>&nbsp]
 </td>
 </tr>
 
