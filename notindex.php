@@ -15,7 +15,7 @@
 <table cellpadding="0" cellspacing="0" width="800">
 	<tr>
 		<td valign="top" width="380"><span class="nfakPe">
-Robby McKilliam is a post doc at the Institute for Telecommunications Research at the University of South Australia, Adelaide. His fields of interest are number theory, estimation theory, statistical signal processing and communications. He admires Lamport's structured proofs and is a fan of reproducible research.  In December 2010 he completed his PhD at the University of Queensland, Brisbane, Australia. In 2006 he completed  undergraduate studies in computer systems engineering and mathematics at the University of Queensland. Robby's recreational interests are: swimming, skiing, math, motorbikes, videogames, wine, beer and coffee.
+Robby McKilliam is at the Institute for Telecommunications Research at the University of South Australia, Adelaide. His fields of interest are number theory, estimation theory, statistical signal processing and communications. He admires Lamport's structured proofs and is a fan of reproducible research.  In December 2010 he completed his PhD at the University of Queensland, Brisbane, Australia. In 2006 he completed  undergraduate studies in computer systems engineering and mathematics at the University of Queensland. Robby's recreational interests are: swimming, skiing, math, motorbikes, videogames, wine, beer and coffee.
 		<!--<p> <a href="cv.pdf">A copy of my current cv is here.</a> </p> -->
 		<p> <b>Address</b>
 		<br> Institute for Telecommunications Research
