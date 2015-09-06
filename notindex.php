@@ -15,7 +15,7 @@
 <table cellpadding="0" cellspacing="0" width="800">
 	<tr>
 		<td valign="top" width="380"><span class="nfakPe">
-Robby McKilliam is a post doc at the Institute for Telecommunications Research at the University of South Australia, Adelaide. His fields of interest are number theory, estimation theory, statistical signal processing and communications. He admires Lamport's structured proofs and is a fan of reproducible research.  In December 2010 he completed his PhD at the University of Queensland, Brisbane, Australia. In 2006 he completed  undergraduate studies in computer systems engineering and mathematics at the University of Queensland. Robby's recreational interests are: swimming, skiing, math, motorbikes, videogames, wine, beer and coffee.
+Robby McKilliam is at the Institute for Telecommunications Research at the University of South Australia, Adelaide. His fields of interest are number theory, estimation theory, statistical signal processing and communications. He admires Lamport's structured proofs and is a fan of reproducible research.  In December 2010 he completed his PhD at the University of Queensland, Brisbane, Australia. In 2006 he completed  undergraduate studies in computer systems engineering and mathematics at the University of Queensland. Robby's recreational interests are: swimming, skiing, math, motorbikes, videogames, wine, beer and coffee.
 		<!--<p> <a href="cv.pdf">A copy of my current cv is here.</a> </p> -->
 		<p> <b>Address</b>
 		<br> Institute for Telecommunications Research
@@ -539,8 +539,8 @@ Next to many of the papers listed above is a link named `code'.  This links to a
 <br>
 <b>Other Activities</b>
 <table>
-<tr valign="top"><td>Technical Programme Committee, Internat. Conf. on Acoust., Sp. and Sig. Process. (ICASSP), Brisbane 2015</td></tr>
-<tr valign="top"><td>Local Finance Chair, Information Theory Workshop (ITW), Hobart 2014</td></tr>
+<tr valign="top"><td>Organising Committee, IEEE Internat. Conf. on Acoust., Sp. and Sig. Process. (ICASSP), Brisbane 2015</td></tr>
+<tr valign="top"><td>Local Finance Chair, IEEE Information Theory Workshop (ITW), Hobart 2014</td></tr>
 <tr valign="top"><td>Local Finance Chair, International Symposium on Information Theory and its Appl. (ISITA), Melbourne 2014</td></tr>
 <tr valign="top"><td>Technical Programme Chair, Australian Communications Theory Workshop (AusCTW), Adelaide 2013</td></tr>
 <tr valign="top"><td>Technical Programme Committee, Australian Communications Theory Workshop (AusCTW), Wellington 2012</td></tr>
