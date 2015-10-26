@@ -40,6 +40,7 @@ Robby McKilliam is at the Institute for Telecommunications Research at the Unive
 
 <b>Teaching</b>
 <table cellpadding="4" cellspacing="0" width="600">
+<tr valign="top"><td> <a href="./signalsandsystems/2015/index.html">Signals and Systems (EEET 3041)</a>. University of South Australia. 2015. </td></tr>
 <tr valign="top"><td> <a href="./signalsandsystems/index.html">Signals and Systems (EEET 3041)</a>. University of South Australia. 2014. </td></tr>
 <tr valign="top"><td> <a href="./signalsandsystems/2013/tobeindex.html">Signals and Systems (EEET 3041)</a>. University of South Australia. 2013. </td></tr>
 <tr valign="top"><td> Modern Communication Systems (EEET 4036). University of South Australia. 2012. </td></tr>
@@ -503,7 +504,7 @@ The lattice <em>A</em><sub>n</sub>* and applications to synchronisation. <em>Aus
 <b>Software</b>
 <table cellpadding="4" cellspacing="0" width="600">
 <tr valign="top"><td>
-Next to many of the papers listed above is a link named `code'.  This links to a repository containing the latex file and the software used for running simulations and generating plots relevant to that paper.  All of the software is released under the <a href="http://matt.might.net/articles/crapl/">CRAPL</a> and comes with no guarantee as to legibility, coding style or anything else.  I recommend <a href="http://abandonmatlab.wordpress.com/">this blog</a>.<!-- Much of the code is Java, some Mathematica, some Ruby, some Python. Recently I have been using <a href="http://www.scala-lang.org/">Scala</a>.  My oppinion of MATLAB is well represented by <a href="http://abandonmatlab.wordpress.com/">this website</a>. -->
+Next to many of the papers listed above is a link named `code'.  This links to a repository containing the latex file and the software used for running simulations and generating plots relevant to that paper.  All of the software is released under the <a href="http://matt.might.net/articles/crapl/">CRAPL</a> and comes with no guarantee as to legibility, coding style or anything else.  I used to recommend <a href="http://abandonmatlab.wordpress.com/">this blog</a>.  Unfortunately, it's now so controversial that its owner made it private! <!-- Much of the code is Java, some Mathematica, some Ruby, some Python. Recently I have been using <a href="http://www.scala-lang.org/">Scala</a>.  My oppinion of MATLAB is well represented by <a href="http://abandonmatlab.wordpress.com/">this website</a>. -->
 </td></tr>
 </table>
 
