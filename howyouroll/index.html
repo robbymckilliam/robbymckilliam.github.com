@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <p>Example: ?12with4d4+4||2d8+1d6+2||2d12+1d6</p>
+
+<script>
+
+var urlinput = window.location.search.substring(1);
+process_requirements(urlinput);
+
+function process_requirements(inputstring) {
+    var isplit = inputstring.split("with");
+    var required = isplit[0];
+    var rolls = isplit[1];
+    document.write("Require " + required + "<br>");
+    var bestroll = process_all_dice_rolls(rolls, required);
+    document.write("<br>You should roll " + bestroll);
+}
+
+// Computes probability of each rolls, best roll
+function process_all_dice_rolls(inputstring, required) {
+    var rolls = inputstring.split("||");
+    var bestroll = "";
+    var bestprob = -1;
+    for(var i in rolls) {
+	var succprob = dice_roll_success_probability(rolls[i],required);
+	document.write("Rolling " + rolls[i] + " has probability of success " + succprob + " <br>");
+	if( succprob > bestprob ) {
+	    bestprob = succprob;
+	    bestroll = rolls[i];
+	}
+    }
+    return bestroll;
+}
+
+function dice_roll_success_probability(roll, required) {
+    var pmf = process_dice_roll(roll);
+    if( required <= 0 ) {
+	return 1.0;
+    }
+    if( pmf.length <= required ) {
+	return 0.0;
+    }
+    var sum = 0.0;
+    for(var n = Math.ceil(required); n < pmf.length; n++) {
+	sum  = sum + pmf[n];
+    }
+    return sum;
+}
+
+function process_dice_roll(input) {
+    var rolls = input.split("+");
+    prob = [1.0];
+    for (var i in rolls) {
+	var rollprob = process_dice(rolls[i]);
+	prob = conv(prob, rollprob);
+    }
+    return prob;
+}
+
+// splits DnD dice notation, e.g., 4d6 into number of rolls
+// and dice. Returns probability distribution.
+function process_dice(inputstring) {
+    var dice = inputstring.split("d");
+    var num_rolls = dice[0]; //number of rolls
+    // if not "dD" component then assume D=1
+    // e.e is 4d6+1 interpretted as 4d6+1d1
+    var dice_type = 1;
+    if( dice.length > 1 ) {
+	dice_type = dice[1]; // type of dice
+    }
+    var dprob = diceProbability(dice_type);
+    var prob = [1.0];
+    for(var i = 0; i < num_rolls; i++) {
+	prob = conv(prob,dprob);
+    }
+    return prob;
+}
+
+// discrete convolvution of two arrays
+function conv(x,y) {
+    function inner(n) {
+	var sum=0;
+	for(var m in x) {
+	    if( n - m >= 0 ) {
+		if( n - m < y.length ) {
+		    sum = sum + x[m]*y[n-m];
+		}
+	    }
+	}
+	return sum;
+    }
+    var len = x.length + y.length - 1;
+    var ret = [];
+    for(var n = 0; n< len; n++){
+	ret.push(inner(n));
+    }
+    return ret;
+}
+
+// pmf of an n sided dice (returned as array)
+function diceProbability(n) {
+    var prob = [0.0];
+    for(var p = 0; p < n; p++){
+	prob.push(1.0/n);
+    }
+    return prob;
+}
+
+</script>
+
+</body>
+</html>
+
