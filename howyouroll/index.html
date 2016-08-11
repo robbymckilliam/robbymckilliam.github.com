@@ -15,7 +15,12 @@ function process_requirements(inputstring) {
     var rolls = isplit[1];
     document.write("Require " + required + "<br>");
     var bestroll = process_all_dice_rolls(rolls, required);
-    document.write("<br>You should roll " + bestroll);
+    if( bestroll[1] > 0.5 ) {
+	document.write("<br>You should roll " + bestroll[0]);
+    }
+    else {
+	document.write("<br>You should run away!");
+    }
 }
 
 // Computes probability of each rolls, best roll
@@ -31,7 +36,7 @@ function process_all_dice_rolls(inputstring, required) {
 	    bestroll = rolls[i];
 	}
     }
-    return bestroll;
+    return [bestroll,  succprob];
 }
 
 function dice_roll_success_probability(roll, required) {
