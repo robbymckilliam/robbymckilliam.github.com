@@ -9,7 +9,9 @@ process_requirements(urlinput);
 
 function process_requirements(inputstring) {
     if( urlinput.length == 0 ) {
-	document.write("Example: ?12with4d4+4or2d8+1d6+2or2d12+1d6");
+	document.write("Examples: <br>&nbsp&nbsp&nbsp&nbsp?12with4d4+4or2d8+1d6+2or2d12+1d6 <br>" +
+		       "&nbsp&nbsp&nbsp&nbsp?10with1d8+1d6where1is3&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(dogslicer)<br>" +
+		       "&nbsp&nbsp&nbsp&nbsp?10with4d4iffail2d8+1d4&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(vicious trident)");
 	return;
     }
     var isplit = inputstring.split("with");
@@ -31,7 +33,7 @@ function process_all_dice_rolls(inputstring, required) {
     var bestroll = "";
     var bestprob = -1;
     for(var i in rolls) {
-	var succprob = dice_roll_success_probability(rolls[i],required);
+	var succprob = process_multiple_rolls(rolls[i],required);
 	document.write("Rolling " + rolls[i] + " has probability of success " + succprob + " <br>");
 	if( succprob > bestprob ) {
 	    bestprob = succprob;
@@ -39,6 +41,17 @@ function process_all_dice_rolls(inputstring, required) {
 	}
     }
     return [bestroll,  succprob];
+}
+
+// process "iffail" allowing rolling again after they fail
+function process_multiple_rolls(input, required){
+    var rolls = input.split("iffail");
+    var prob = 1.0;
+    for( var x in rolls ) {
+	var rollprob = dice_roll_success_probability(rolls[x], required);
+	prob = prob*(1-rollprob);
+    }
+    return 1 - prob;
 }
 
 function dice_roll_success_probability(roll, required) {
@@ -70,7 +83,10 @@ function process_dice_roll(input) {
 // and dice. Returns probability distribution.
 function process_dice(inputstring) {
     var dice = inputstring.split("d");
-    var num_rolls = dice[0]; //number of rolls
+    var num_rolls = 1;      //number of rolls (1 if ommited)
+    if( dice[0].length != 0 ) {
+	num_rolls = dice[0];
+    }
     // if not "dD" component then assume D=1
     // eg  4d6+1 interpretted as 4d6+1d1
     var dice_type = "1";
@@ -111,16 +127,17 @@ function conv(x,y) {
 // 1d6m1>3
 // meaning replace 1d6 with 1's replaced by 3's.
 function modifiedDiceProbability(inputstring) {
-    var dice = inputstring.split("m");
+    var dice = inputstring.split("where");
     var dice_type = dice[0];
     var prob = standardDiceProbability(dice_type);
-    if( dice.length == 1 )  return prob;
-    probmod = modifyDice(prob, dice[1]);
-    return probmod;
+    for( var i = 1; i < dice.length; i++ ) {  
+	prob = modifyDice(prob, dice[i]);
+    }
+    return prob;
 }
 
 function modifyDice(prob, modifier) {
-    var dice = modifier.split("to");
+    var dice = modifier.split("is");
     var a = dice[0];
     var b = dice[1];
     prob[b] = prob[a] + prob[b];
@@ -139,22 +156,40 @@ function standardDiceProbability(n) {
 
 function test_modifyDice() {
     //document.write("<br><br>modifyDice test running<br>");
-    var prob1 = modifyDice([0,0.5,0.5], "1to2");
+    var prob1 = modifyDice([0,0.5,0.5], "1is2");
     if( prob1[0] != 0 ) document.write("<br>modifyDice test FAILED!<br>");
     if( prob1[1] != 0 ) document.write("modifyDice test FAILED!<br>");
     if( prob1[2] != 1 ) document.write("modifyDice test FAILED!<br>");
 }
 
-function test_modifiedDiceProbability() {
-    var prob = modifiedDiceProbability("2");
-    if( prob[0] != 0 ) document.write("<br>modifyDice test FAILED!<br>");
-    if( prob[1] != 0.5 ) document.write("modifyDice test FAILED!<br>");
-    if( prob[2] != 0.5 ) document.write("modifyDice test FAILED!<br>");    
+function test_modifiedDiceProbability() {    
+    var failstring = "<br>modifiedDiceProbability test FAILED!";
 
-    var prob = modifiedDiceProbability("2m1to2");
-    if( prob[0] != 0 ) document.write("<br>modifyDice test FAILED!<br>");
-    if( prob[1] != 0 ) document.write("modifyDice test FAILED!<br>");
-    if( prob[2] != 1 ) document.write("modifyDice test FAILED!<br>");    
+    var prob = modifiedDiceProbability("2");
+    if( prob[0] != 0 ) document.write(failstring);
+    if( prob[1] != 0.5 ) document.write(failstring);
+    if( prob[2] != 0.5 ) document.write(failstring);    
+
+    var prob = modifiedDiceProbability("2where1is2");
+    if( prob[0] != 0 ) document.write(failstring);
+    if( prob[1] != 0 ) document.write(failstring);
+    if( prob[2] != 1 ) document.write(failstring);    
+}
+
+function test_iffail() {    
+    var failstring = "<br>iffail test FAILED!";
+  
+    var prob = process_multiple_rolls("2iffail1", 1);
+    if( prob != 1 ) document.write(failstring);
+
+    var prob = process_multiple_rolls("2iffail1", 3);
+    if( prob != 0 ) document.write(failstring);
+
+    var prob = process_multiple_rolls("d4iffail2", 3);
+    if( prob != 0.5 ) document.write(failstring);
+
+    var prob = process_multiple_rolls("d4iffaild4", 3);
+    if( prob != 0.75 ) document.write(failstring);
 }
 
 function test_process_dice() {
@@ -164,17 +199,31 @@ function test_process_dice() {
     if( prob[1] != 0.5 ) document.write(failstring);
     if( prob[2] != 0.5 ) document.write(failstring);    
 
-    var prob = process_dice("1d2m1to2");
+    var prob = process_dice("1d2where1is2");
     if( prob[0] != 0 ) document.write(failstring);
     if( prob[1] != 0 ) document.write(failstring);
     if( prob[2] != 1 ) document.write(failstring);
 
-    var prob = process_dice("2d2m1to2");
+    var prob = process_dice("2d2where1is2");
     if( prob[0] != 0 ) document.write(failstring);
     if( prob[1] != 0 ) document.write(failstring);
     if( prob[2] != 0 ) document.write(failstring);    
     if( prob[3] != 0 ) document.write(failstring);    
     if( prob[4] != 1 ) document.write(failstring);    
+
+    var prob = process_dice("1d4where1is2");
+    if( prob[0] != 0 ) document.write(failstring);
+    if( prob[1] != 0 ) document.write(failstring);
+    if( prob[2] != 0.5 ) document.write(failstring);    
+    if( prob[3] != 0.25 ) document.write(failstring);    
+    if( prob[4] != 0.25 ) document.write(failstring);    
+
+    var prob = process_dice("1d4where2is3where1is2");
+    if( prob[0] != 0.0 ) document.write(failstring);
+    if( prob[1] != 0.0 ) document.write(failstring);
+    if( prob[2] != 0.25 ) document.write(failstring);    
+    if( prob[3] != 0.5 ) document.write(failstring);    
+    if( prob[4] != 0.25 ) document.write(failstring);    
 
 }
 
@@ -182,6 +231,7 @@ function test_process_dice() {
 test_modifyDice();
 test_modifiedDiceProbability();
 test_process_dice();
+test_iffail();
 
 </script>
 
