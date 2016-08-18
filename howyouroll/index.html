@@ -54,6 +54,7 @@ function process_multiple_rolls(input, required){
     return 1 - prob;
 }
 
+// compute probability of succes of a roll
 function dice_roll_success_probability(roll, required) {
     var pmf = process_dice_roll(roll);
     if( required <= 0 ) {
@@ -69,6 +70,8 @@ function dice_roll_success_probability(roll, required) {
     return sum;
 }
 
+// split individual dice with "+" and compute probability mass
+// function of each dice
 function process_dice_roll(input) {
     var rolls = input.split("+");
     prob = [1.0];
