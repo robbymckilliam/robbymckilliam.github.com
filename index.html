@@ -2,7 +2,6 @@
  
 <link rel='stylesheet' href='page.css' type='text/css' />
 
-
 <head>
 <title>Robby McKilliam's Webpage</title>
 </head>
@@ -49,13 +48,21 @@ Robby McKilliam is at the Institute for Telecommunications Research at the Unive
 
 <br>
 
-<?php
-$Frefcounter = 1;
-?>
+<script>
+  refcounter = 1;
+  function increment() {
+  refcounter = refcounter+1;
+  }
+</script>
+
+
 <b>Thesis </b>
 <table cellpadding="4" cellspacing="0" width="600" >
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+    document.write(refcounter);
+    increment();
+</script>]</td>
 <td>
 R.&nbsp;G. McKilliam.
   <em>Lattice theory, circular statistics and polynomial phase
@@ -73,7 +80,23 @@ R.&nbsp;G. McKilliam.
 <table cellpadding="4" cellspacing="0" width="600" >
 
 <tr valign="top">
-<td>[2]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
+<td>
+A.&nbsp;Akhlaq, R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, and A.&nbsp;Pollok.
+ Selecting wavelengths for least squares range estimation.
+ <em>IEEE Transactions on Signal Processing</em>, 64(20):5205--5216, Oct
+  2016.
+[&nbsp;<a href="robby_bib.html#7523940">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1109/TSP.2016.2595490">doi</a>&nbsp;]
+</td>
+</tr>
+
+  <tr valign="top">
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 <td>
 A.&nbsp;Akhlaq, R.&nbsp;G.&nbsp;McKilliam, and R.&nbsp;Subramanian.
  Basis construction for range estimation by phase unwrapping.
@@ -84,7 +107,9 @@ A.&nbsp;Akhlaq, R.&nbsp;G.&nbsp;McKilliam, and R.&nbsp;Subramanian.
 </tr>
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 <td>
 R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Grant, and I.&nbsp;V.&nbsp;L. Clarkson.
  Finding a closest point in a lattice of Voronoi's first kind. <em>SIAM Journal on Discrete Mathematics</em>, 28(3):1405-1422, 2014.
@@ -93,7 +118,9 @@ R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Grant, and I.&nbsp;V.&nbsp;L. Clarkson.
 </tr>
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 <td>
 R.&nbsp;G.&nbsp;McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G.&nbsp;Quinn.
  Fast sparse period estimation. <em>IEEE Signal Process. Letters</em>, 22(1):62-66, Jan. 2015.
@@ -102,7 +129,9 @@ R.&nbsp;G.&nbsp;McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G.&nbsp;Quin
 </tr>
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 <td>
 R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G. Quinn.
  Carrier phase and amplitude estimation for phase shift keying using
@@ -113,7 +142,9 @@ R.&nbsp;G.&nbsp;McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Cl
 </tr>
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 </td>
 <td class="bibtexitem">
 J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, R.&nbsp;G.&nbsp;McKilliam, and A.&nbsp;Grant.
@@ -123,7 +154,9 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, R.&nbsp;G.&nbsp;McKilliam, and A.&nbsp;G
 </tr>
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 <td class="bibtexitem">
 A.&nbsp;Pollok and R.&nbsp;G. McKilliam.
  Modified Cram&eacute;r-Rao bounds for continuous-phase modulated
@@ -134,7 +167,9 @@ A.&nbsp;Pollok and R.&nbsp;G. McKilliam.
 </tr>
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 <td>
 R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, B.&nbsp;Moran, and B.&nbsp;N. Vellambi.
  Polynomial phase estimation by least squares phase unwrapping.
@@ -144,7 +179,9 @@ R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, B.&nbsp;Mor
 </tr>
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 <td>
 R.&nbsp;G. McKilliam, A.&nbsp;Pollok, and W.&nbsp;Cowley.
  Simultaneous symbol timing and frame synchronization for phase shift
@@ -155,7 +192,9 @@ R.&nbsp;G. McKilliam, A.&nbsp;Pollok, and W.&nbsp;Cowley.
 
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 <td class="bibtexitem">
 R.&nbsp;G. McKilliam and A.&nbsp;Pollok.
  On the Cram&eacute;r-Rao bound for polynomial phase signals. <em>Signal Processing</em>, 95:27-31, Feb. 2014. 
@@ -164,7 +203,9 @@ R.&nbsp;G. McKilliam and A.&nbsp;Pollok.
 </tr>
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 <td>
 R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;L. Clarkson.
  On the error performance of the <em>A</em><sub>n</sub> lattices.
@@ -174,7 +215,9 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 </tr>
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 	<td>
 	R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, and I.&nbsp;V.&nbsp;L. Clarkson.
  Direction estimation by minimum squared arc length.
@@ -184,7 +227,9 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 	</tr>
 
 	<tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 		<td>
 		R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and B. Moran.
 		  Frequency estimation by phase unwrapping.
@@ -194,7 +239,9 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 	</tr>
 	
 	<tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 		<td>
 		R.&nbsp;G. McKilliam, W.&nbsp;D. Smith, and I.&nbsp;V.&nbsp;L. Clarkson.
 		  Linear-time nearest point algorithms for Coxeter lattices.
@@ -204,7 +251,9 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 	</tr>
 	
 	<tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 		<td>
 		R.&nbsp;G. McKilliam and I.&nbsp;V.&nbsp;L. Clarkson.
 		Identifiability and aliasing in polynomial-phase signals.
@@ -216,7 +265,9 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 	</tr>
 
 	<tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 		<td>
 		R.&nbsp;G. McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;G. Quinn.
   		An algorithm to compute the nearest point in the lattice <em>A</em><sub>n</sub>*.
@@ -233,7 +284,9 @@ R.&nbsp;G. McKilliam, R.&nbsp;Subramanian, E.&nbsp;Viterbo, and I.&nbsp;V.&nbsp;
 <table cellpadding="4" cellspacing="0" width="600" >
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 </td>
 <td class="bibtexitem">
 B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G. McKilliam.
@@ -243,7 +296,9 @@ B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G. McKilliam.
 </tr>
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 <td>
 D.&nbsp;Haley, A.&nbsp;Grant, W.&nbsp;Cowley, L.&nbsp;Davis, I.&nbsp;Land, M.&nbsp;Lavenant, G.&nbsp;Lechner,
   R.&nbsp;McKilliam, and A.&nbsp;Pollok.
@@ -254,7 +309,9 @@ D.&nbsp;Haley, A.&nbsp;Grant, W.&nbsp;Cowley, L.&nbsp;Davis, I.&nbsp;Land, M.&nb
 </tr>
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 <td>
 D. Haley, L.&nbsp;M. Davis, A. Pollok, Y. Chen, G. Lechner, M.
   Lavenant, S.&nbsp;A. Barbulescu, J. Buetefuer, W.&nbsp;G. Cowley, A.
@@ -268,7 +325,9 @@ D. Haley, L.&nbsp;M. Davis, A. Pollok, Y. Chen, G. Lechner, M.
 </tr>
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 <td>
 B.&nbsp;G.&nbsp;Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G.&nbsp;McKilliam.
  On the Periodogram Estimator of Period from Sparse, Noisy Timing Data.
@@ -279,7 +338,9 @@ B.&nbsp;G.&nbsp;Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G.&nbsp;McKillia
 </tr>
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 <td>
 R.&nbsp;G. McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;Quinn.
  Noncoherent least squares estimators of carrier phase and amplitude.
@@ -290,7 +351,9 @@ R.&nbsp;G. McKilliam, A.&nbsp;Pollok, B.&nbsp;Cowley, I.&nbsp;V.&nbsp;L. Clarkso
 </tr>
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 <td>
 J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
  Decoder-aided synchronization for multiuser CDMA systems.
@@ -302,7 +365,9 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
 
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 <td>
 B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G. McKilliam.
  Estimating period from sparse, noisy timing data.
@@ -313,7 +378,9 @@ B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G. McKilliam.
 </tr>
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 <td>
 R.&nbsp;G. McKilliam and A.&nbsp;Grant.
  Finding short vectors in a lattice of Voronoi's first kind.
@@ -326,7 +393,9 @@ R.&nbsp;G. McKilliam and A.&nbsp;Grant.
 
 
 <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 <td>
 J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
  Code-acquisition via the projection method for CDMA systems in high
@@ -339,7 +408,9 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
 
 <!--
    <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
     <td>
       R.&nbsp;G. McKilliam and B.&nbsp;G. Quinn.
       Estimating the circular mean from correlated observations.
@@ -349,7 +420,9 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
 -->
 
 <!--  <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>    
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>    
 <td>
       B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and R.&nbsp;G. McKilliam.
       Estimating period from sparse, noisy timing data.
@@ -360,7 +433,9 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
 -->
 
   <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
     <td>
       R.&nbsp;G. McKilliam, B.&nbsp;G. Quinn, I.&nbsp;V.&nbsp;L. Clarkson, and B.&nbsp;Moran.
       The asymptotic properties of polynomial phase estimation by least
@@ -372,7 +447,9 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
   </tr>
 
   <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
     <td>
       R.&nbsp;G. McKilliam, D.&nbsp;J. Ryan, I.&nbsp;V.&nbsp;L. Clarkson, and I.&nbsp;B. Collings.
       Block noncoherent detection of hexagonal QAM.
@@ -383,7 +460,9 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
   </tr>
 
   <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
     <td>
       R.&nbsp;G. McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, B.&nbsp;G. Quinn, and B.&nbsp;Moran.
  Polynomial-phase estimation, phase unwrapping and the nearest lattice
@@ -395,7 +474,9 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
   </tr>
 
   <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
     <td>
       R.&nbsp;G. McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, D.&nbsp;J. Ryan, and I.&nbsp;B.
       Collings.
@@ -408,7 +489,9 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
 
 
   <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
     <td>R.&nbsp;G. McKilliam and I.&nbsp;V.&nbsp;L. Clarkson. Maximum-likelihood period 
       estimation from sparse, noisy timing data. <em>Proc. Internat. Conf. 
 	Acoust. Speech Signal Process.</em>, pages 3697-3700, March 2008.
@@ -418,7 +501,9 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
   </tr>
 
   <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
     <td>R.&nbsp;G. McKilliam, D.&nbsp;J. Ryan, I.&nbsp;V.&nbsp;L. Clarkson, and I.&nbsp;B. Collings. 
       An improved algorithm for optimal noncoherent QAM detection. <em>Proc. 
 	Austral. Comm. Theory Workshop</em>, pages 64-68, Jan 2008.
@@ -428,7 +513,9 @@ J.&nbsp;Kodithuwakku, N.&nbsp;Letzepis, A.&nbsp;Grant, and R.&nbsp;McKilliam.
   </tr>
   
   <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 <td>
 R.&nbsp;G. McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, W. D. Smith and B.&nbsp;G. Quinn.
   A linear-time nearest point algorithm for the lattice <em>A</em><sub>n</sub>*. <em>International Symposium on Information Theory
@@ -439,7 +526,9 @@ R.&nbsp;G. McKilliam, I.&nbsp;V.&nbsp;L. Clarkson, W. D. Smith and B.&nbsp;G. Qu
 </tr>
   
     <tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
     <td>
 B.&nbsp;G. Quinn, R.&nbsp;G. McKilliam, and I.&nbsp;V.&nbsp;L. Clarkson.
   Maximizing the periodogram.
@@ -451,7 +540,9 @@ B.&nbsp;G. Quinn, R.&nbsp;G. McKilliam, and I.&nbsp;V.&nbsp;L. Clarkson.
   
 
 	<tr valign="top">
-<td>[<?php echo $Frefcounter; $Frefcounter = $Frefcounter+1;?>]</td>
+<td>[<script>
+document.write(refcounter); increment();
+  </script>]</td>
 		<td>
 R.&nbsp;McKilliam and G.&nbsp;Wyeth. Fast and robust stereo object recognition 
 		for spheres. <em>Proc. Australasian Conference on Robotics and 
@@ -562,6 +653,7 @@ Next to many of the papers listed above is a link named `code'.  This links to a
 <a href="http://rubyforge.org/projects/rubypost/">Rubypost</a> and
 <a href="http://sourceforge.net/projects/jdraftpdf">JDraftPDF</td></tr>-->
 </table>
+
 
 </body>
 
