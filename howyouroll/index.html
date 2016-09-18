@@ -2,8 +2,26 @@
 <html>
 <body>
 
-<script>
+    <link href="c3.css" rel="stylesheet" type="text/css">
+    <script src="d3.min.js" charset="utf-8"></script>
+    <script src="c3.min.js"></script>
 
+<div id="pmfplot"></div>
+
+    <script>
+    
+// setup plot and
+var pmfplot = c3.generate({
+	bindto: '#pmfplot',
+	data: {
+	    columns: [],
+	    type: 'area-step'
+	},
+    title: {
+	text: 'Probability mass function'
+    }
+});
+    
 var urlinput = window.location.search.substring(1);
 process_requirements(urlinput);
 
@@ -14,6 +32,7 @@ function process_requirements(inputstring) {
 		       "&nbsp&nbsp&nbsp&nbsp?10with4d4iffail2d8+1d4&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(vicious trident)");
 	return;
     }
+
     var isplit = inputstring.split("with");
     var required = isplit[0];
     var rolls = isplit[1];
@@ -56,7 +75,7 @@ function process_multiple_rolls(input, required){
 
 // compute probability of succes of a roll
 function dice_roll_success_probability(roll, required) {
-    var pmf = process_dice_roll(roll);
+    var pmf = process_dice_roll(roll);    
     if( required <= 0 ) {
 	return 1.0;
     }
@@ -70,8 +89,9 @@ function dice_roll_success_probability(roll, required) {
     return sum;
 }
 
+// Returns probablily mass funcion of the roll
 // split individual dice with "+" and compute probability mass
-// function of each dice
+// function of each dice.
 function process_dice_roll(input) {
     var rolls = input.split("+");
     prob = [1.0];
@@ -79,6 +99,18 @@ function process_dice_roll(input) {
 	var rollprob = process_dice(rolls[i]);
 	prob = conv(prob, rollprob);
     }
+
+    // prepend input string to array for c3 plot label
+    var plotpmf = prob.slice(0)
+    plotpmf.unshift(input)
+
+    // load data input plot
+    pmfplot.load({
+	columns: [
+	    plotpmf
+	]
+    });
+    
     return prob;
 }
 
@@ -231,10 +263,10 @@ function test_process_dice() {
 }
 
 // run a bunch of tests to finish off
-test_modifyDice();
-test_modifiedDiceProbability();
-test_process_dice();
-test_iffail();
+//test_modifyDice();
+//test_modifiedDiceProbability();
+//test_process_dice();
+//test_iffail();
 
 </script>
 
