@@ -2,273 +2,82 @@
 <html>
 <body>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="c3.css" rel="stylesheet" type="text/css">
     <script src="d3.min.js" charset="utf-8"></script>
     <script src="c3.min.js"></script>
-
-<div id="pmfplot"></div>
-
-    <script>
+    <script src="thisishowyouroll.js"></script>
     
-// setup plot and
-var pmfplot = c3.generate({
-	bindto: '#pmfplot',
-	data: {
-	    columns: [],
-	    type: 'area-step'
-	},
-    title: {
-	text: 'Probability mass function'
-    }
-});
+    <div id="plotcontainer" class="container hidden">
+      <div class="well">
+	<div id="pmfplot"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="well">
+	<div id="diceresults"></div>
+      </div>
+    </div>
+
+    <div class="container">
+    <form>
+    <div class="form-group">
+    <input type="rollstring" class="form-control" id="rollstring" placeholder="12 with 4d4 + 4 or 2d8 + 1d6 + 2 or 2d12 + 1d6">
+    </div>
+    </form>
+    </div>
     
-var urlinput = window.location.search.substring(1);
-process_requirements(urlinput);
+    <div class="container text-center">
+    <div class="btn-group-vertical">
+    <button type="button" class="btn btn-default">1</button> 
+    <button type="button" class="btn btn-default">4</button>
+    <button type="button" class="btn btn-default">7</button>
+    <button type="button" class="btn btn-default">d</button>
+    <button type="button" class="btn btn-default" onclick="button_switch_stats()"><span class="glyphicon glyphicon-stats"></span></button>
+    </div>
+    <div class="btn-group-vertical">
+    <button type="button" class="btn btn-default">2</button> 
+    <button type="button" class="btn btn-default">5</button>
+    <button type="button" class="btn btn-default">8</button>
+    <button type="button" class="btn btn-default">0</button>
+    <button type="button" class="btn btn-default">is</button>
+    </div>
+    <div class="btn-group-vertical">
+    <button type="button" class="btn btn-default">3</button> 
+    <button type="button" class="btn btn-default">6</button>
+    <button type="button" class="btn btn-default">9</button>
+    <button type="button" class="btn btn-default">+</button>
+    <button type="button" class="btn btn-default">or</button>
+    </div>
+    <div class="btn-group-vertical">
+    <button type="button" class="btn btn-default">with</button> 
+    <button type="button" class="btn btn-default">where</button>
+    <button type="button" class="btn btn-default">iffail</button>
+    <button type="button" class="btn btn-default">BACK</i></button> 
+    <button type="button" class="btn btn-default">ENTER</button>
+    </div>
 
-function process_requirements(inputstring) {
-    if( urlinput.length == 0 ) {
-	document.write("Examples: <br>&nbsp&nbsp&nbsp&nbsp?12with4d4+4or2d8+1d6+2or2d12+1d6 <br>" +
-		       "&nbsp&nbsp&nbsp&nbsp?10with1d8+1d6where1is3&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(dogslicer)<br>" +
-		       "&nbsp&nbsp&nbsp&nbsp?10with4d4iffail2d8+1d4&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(vicious trident)");
-	return;
-    }
+<script>
 
-    var isplit = inputstring.split("with");
-    var required = isplit[0];
-    var rolls = isplit[1];
-    document.write("Require " + required + "<br>");
-    var bestroll = process_all_dice_rolls(rolls, required);
-    if( bestroll[1] > 0.5 ) {
-	document.write("<br>You should roll " + bestroll[0]);
-    }
-    else {
-	document.write("<br>You should run away!");
-    }
-}
+  var pmfplot = c3.generate({
+  bindto: '#pmfplot',
+  data: {
+  columns: [],
+  type: 'area-step'
+  },
+  title: {
+  text: 'Probability of success'
+  }
+  });
 
-// Computes probability of each roll, return best roll
-function process_all_dice_rolls(inputstring, required) {
-    var rolls = inputstring.split("or");
-    var bestroll = "";
-    var bestprob = -1;
-    for(var i in rolls) {
-	var succprob = process_multiple_rolls(rolls[i],required);
-	document.write("Rolling " + rolls[i] + " has probability of success " + succprob + " <br>");
-	if( succprob > bestprob ) {
-	    bestprob = succprob;
-	    bestroll = rolls[i];
-	}
-    }
-    return [bestroll,  succprob];
-}
-
-// process "iffail" allowing rolling again after they fail
-function process_multiple_rolls(input, required){
-    var rolls = input.split("iffail");
-    var prob = 1.0;
-    for( var x in rolls ) {
-	var rollprob = dice_roll_success_probability(rolls[x], required);
-	prob = prob*(1-rollprob);
-    }
-    return 1 - prob;
-}
-
-// compute probability of succes of a roll
-function dice_roll_success_probability(roll, required) {
-    var pmf = process_dice_roll(roll);    
-    if( required <= 0 ) {
-	return 1.0;
-    }
-    if( pmf.length <= required ) {
-	return 0.0;
-    }
-    var sum = 0.0;
-    for(var n = Math.ceil(required); n < pmf.length; n++) {
-	sum  = sum + pmf[n];
-    }
-    return sum;
-}
-
-// Returns probablily mass funcion of the roll
-// split individual dice with "+" and compute probability mass
-// function of each dice.
-function process_dice_roll(input) {
-    var rolls = input.split("+");
-    prob = [1.0];
-    for (var i in rolls) {
-	var rollprob = process_dice(rolls[i]);
-	prob = conv(prob, rollprob);
-    }
-
-    // prepend input string to array for c3 plot label
-    var plotpmf = prob.slice(0)
-    plotpmf.unshift(input)
-
-    // load data input plot
-    pmfplot.load({
-	columns: [
-	    plotpmf
-	]
-    });
-    
-    return prob;
-}
-
-// splits DnD dice notation, e.g., 4d6 into number of rolls
-// and dice. Returns probability distribution.
-function process_dice(inputstring) {
-    var dice = inputstring.split("d");
-    var num_rolls = 1;      //number of rolls (1 if ommited)
-    if( dice[0].length != 0 ) {
-	num_rolls = dice[0];
-    }
-    // if not "dD" component then assume D=1
-    // eg  4d6+1 interpretted as 4d6+1d1
-    var dice_type = "1";
-    if( dice.length > 1 ) {
-	dice_type = dice[1]; // type of dice
-    }
-    var dprob = modifiedDiceProbability(dice_type);
-    var prob = [1.0];
-    for(var i = 0; i < num_rolls; i++) {
-	prob = conv(prob,dprob);
-    }
-    return prob;
-}
-
-// discrete convolvution of two arrays
-function conv(x,y) {
-    function inner(n) {
-	var sum=0;
-	for(var m in x) {
-	    if( n - m >= 0 ) {
-		if( n - m < y.length ) {
-		    sum = sum + x[m]*y[n-m];
-		}
-	    }
-	}
-	return sum;
-    }
-    var len = x.length + y.length - 1;
-    var ret = [];
-    for(var n = 0; n< len; n++){
-	ret.push(inner(n));
-    }
-    return ret;
-}
-
-// process dice modifications (dogslicer for example)
-// this are included by adding the notation
-// 1d6m1>3
-// meaning replace 1d6 with 1's replaced by 3's.
-function modifiedDiceProbability(inputstring) {
-    var dice = inputstring.split("where");
-    var dice_type = dice[0];
-    var prob = standardDiceProbability(dice_type);
-    for( var i = 1; i < dice.length; i++ ) {  
-	prob = modifyDice(prob, dice[i]);
-    }
-    return prob;
-}
-
-function modifyDice(prob, modifier) {
-    var dice = modifier.split("is");
-    var a = dice[0];
-    var b = dice[1];
-    prob[b] = prob[a] + prob[b];
-    prob[a] = 0.0;
-    return prob;
-}
-
-// pmf of an n sided dice (returned as array)
-function standardDiceProbability(n) {
-    var prob = [0.0];
-    for(var p = 0; p < n; p++){
-	prob.push(1.0/n);
-    }
-    return prob;
-}
-
-function test_modifyDice() {
-    //document.write("<br><br>modifyDice test running<br>");
-    var prob1 = modifyDice([0,0.5,0.5], "1is2");
-    if( prob1[0] != 0 ) document.write("<br>modifyDice test FAILED!<br>");
-    if( prob1[1] != 0 ) document.write("modifyDice test FAILED!<br>");
-    if( prob1[2] != 1 ) document.write("modifyDice test FAILED!<br>");
-}
-
-function test_modifiedDiceProbability() {    
-    var failstring = "<br>modifiedDiceProbability test FAILED!";
-
-    var prob = modifiedDiceProbability("2");
-    if( prob[0] != 0 ) document.write(failstring);
-    if( prob[1] != 0.5 ) document.write(failstring);
-    if( prob[2] != 0.5 ) document.write(failstring);    
-
-    var prob = modifiedDiceProbability("2where1is2");
-    if( prob[0] != 0 ) document.write(failstring);
-    if( prob[1] != 0 ) document.write(failstring);
-    if( prob[2] != 1 ) document.write(failstring);    
-}
-
-function test_iffail() {    
-    var failstring = "<br>iffail test FAILED!";
+  var urlinput = window.location.search.substring(1);
+  regenerate_results();
   
-    var prob = process_multiple_rolls("2iffail1", 1);
-    if( prob != 1 ) document.write(failstring);
-
-    var prob = process_multiple_rolls("2iffail1", 3);
-    if( prob != 0 ) document.write(failstring);
-
-    var prob = process_multiple_rolls("d4iffail2", 3);
-    if( prob != 0.5 ) document.write(failstring);
-
-    var prob = process_multiple_rolls("d4iffaild4", 3);
-    if( prob != 0.75 ) document.write(failstring);
-}
-
-function test_process_dice() {
-    var failstring = "<br>process dice failed";
-    var prob = process_dice("1d2");
-    if( prob[0] != 0 ) document.write(failstring);
-    if( prob[1] != 0.5 ) document.write(failstring);
-    if( prob[2] != 0.5 ) document.write(failstring);    
-
-    var prob = process_dice("1d2where1is2");
-    if( prob[0] != 0 ) document.write(failstring);
-    if( prob[1] != 0 ) document.write(failstring);
-    if( prob[2] != 1 ) document.write(failstring);
-
-    var prob = process_dice("2d2where1is2");
-    if( prob[0] != 0 ) document.write(failstring);
-    if( prob[1] != 0 ) document.write(failstring);
-    if( prob[2] != 0 ) document.write(failstring);    
-    if( prob[3] != 0 ) document.write(failstring);    
-    if( prob[4] != 1 ) document.write(failstring);    
-
-    var prob = process_dice("1d4where1is2");
-    if( prob[0] != 0 ) document.write(failstring);
-    if( prob[1] != 0 ) document.write(failstring);
-    if( prob[2] != 0.5 ) document.write(failstring);    
-    if( prob[3] != 0.25 ) document.write(failstring);    
-    if( prob[4] != 0.25 ) document.write(failstring);    
-
-    var prob = process_dice("1d4where2is3where1is2");
-    if( prob[0] != 0.0 ) document.write(failstring);
-    if( prob[1] != 0.0 ) document.write(failstring);
-    if( prob[2] != 0.25 ) document.write(failstring);    
-    if( prob[3] != 0.5 ) document.write(failstring);    
-    if( prob[4] != 0.25 ) document.write(failstring);    
-
-}
-
-// run a bunch of tests to finish off
-//test_modifyDice();
-//test_modifiedDiceProbability();
-//test_process_dice();
-//test_iffail();
-
 </script>
+
 
 </body>
 </html>
