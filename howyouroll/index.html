@@ -16,48 +16,60 @@
       </div>
     </div>
 
-    <div class="container">
+    <div id="diceresultsontainer"  class="container">
       <div class="well">
-	<div id="diceresults"></div>
+	<div id="requiredroll"></div>
+	<table class="table table-condensed">
+	  <thead>
+	    <tr>
+              <th>Roll</th>
+              <th>Probability of success</th>
+	    </tr>
+	  </thead>
+	  <tbody id="diceresults">
+	    <tr><td>roll</td><td>prob</td></tr>
+	  </tbody>
+	</table>
+	<div id="bestroll"></div>
       </div>
     </div>
 
     <div class="container">
-    <form>
+      <form id="rollform">
     <div class="form-group">
-    <input type="rollstring" class="form-control" id="rollstring" placeholder="12 with 4d4 + 4 or 2d8 + 1d6 + 2 or 2d12 + 1d6">
+    <input type="text" class="form-control" id="rollstring" placeholder="Example: 12 with 4d4 + 4 or 2d8 + 1d6 + 2 o r2d12 + 1d6">
     </div>
     </form>
     </div>
     
     <div class="container text-center">
     <div class="btn-group-vertical">
-    <button type="button" class="btn btn-default">1</button> 
-    <button type="button" class="btn btn-default">4</button>
-    <button type="button" class="btn btn-default">7</button>
-    <button type="button" class="btn btn-default">d</button>
+    <button type="button" class="btn btn-default" onclick="button_1()">1</button> 
+    <button type="button" class="btn btn-default" onclick="button_4()">4</button>
+    <button type="button" class="btn btn-default" onclick="button_7()">7</button>
+    <button type="button" class="btn btn-default" onclick="button_d()">d</button>
     <button type="button" class="btn btn-default" onclick="button_switch_stats()"><span class="glyphicon glyphicon-stats"></span></button>
     </div>
     <div class="btn-group-vertical">
-    <button type="button" class="btn btn-default">2</button> 
-    <button type="button" class="btn btn-default">5</button>
-    <button type="button" class="btn btn-default">8</button>
-    <button type="button" class="btn btn-default">0</button>
-    <button type="button" class="btn btn-default">is</button>
+    <button type="button" class="btn btn-default" onclick="button_2()">2</button> 
+    <button type="button" class="btn btn-default" onclick="button_5()">5</button>
+    <button type="button" class="btn btn-default" onclick="button_8()">8</button>
+    <button type="button" class="btn btn-default" onclick="button_0()">0</button>
+    <button type="button" class="btn btn-default" onclick="button_is()">is</button>
     </div>
     <div class="btn-group-vertical">
-    <button type="button" class="btn btn-default">3</button> 
-    <button type="button" class="btn btn-default">6</button>
-    <button type="button" class="btn btn-default">9</button>
-    <button type="button" class="btn btn-default">+</button>
-    <button type="button" class="btn btn-default">or</button>
+    <button type="button" class="btn btn-default" onclick="button_3()">3</button> 
+    <button type="button" class="btn btn-default" onclick="button_6()">6</button>
+    <button type="button" class="btn btn-default" onclick="button_9()">9</button>
+    <button type="button" class="btn btn-default" onclick="button_plus()">+</button>
+    <button type="button" class="btn btn-default" onclick="button_or()">or</button>
     </div>
     <div class="btn-group-vertical">
-    <button type="button" class="btn btn-default">with</button> 
-    <button type="button" class="btn btn-default">where</button>
-    <button type="button" class="btn btn-default">iffail</button>
-    <button type="button" class="btn btn-default">BACK</i></button> 
-    <button type="button" class="btn btn-default">ENTER</button>
+    <button type="button" class="btn btn-default" onclick="button_with()">with</button> 
+    <button type="button" class="btn btn-default" onclick="button_where()">where</button>
+    <button type="button" class="btn btn-default" onclick="button_iffail()">iffail</button>
+    <button type="button" class="btn btn-default" onclick="button_CLEAR()">CLEAR</i></button> 
+    <button type="button" class="btn btn-default" onclick="button_HELP()">HELP</button>
     </div>
 
 <script>
@@ -73,7 +85,16 @@
   }
   });
 
-  var urlinput = window.location.search.substring(1);
+  // support input query string
+  document.getElementById("rollstring").value = window.location.search.substring(1);
+
+  // Keypresses go to form
+  document.getElementById("rollform").addEventListener('keyup', function(e) {
+//    console.log("Submitted test " + document.getElementById("rollstring").value);
+    e.preventDefault();
+    regenerate_results();
+}, false);
+  
   regenerate_results();
   
 </script>
