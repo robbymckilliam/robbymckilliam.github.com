@@ -14,8 +14,10 @@ function regenerate_results() {
     document.getElementById("requiredroll").innerHTML = ""
     document.getElementById("diceresults").innerHTML = ""
     document.getElementById("bestroll").innerHTML = ""
-    
-    process_requirements(document.getElementById("rollstring").value);
+
+    // string whitespace from form string
+    var inputstring = document.getElementById("rollstring").value.replace(/ /g,'')
+    process_requirements(inputstring);
 }
 
 function process_requirements(inputstring) {
