@@ -299,8 +299,9 @@ function button_HELP() {
     console.log("Not yet implemented");
     //document.getElementById("rollstring").value += " help "
 }
-function button_CLEAR() {
-    document.getElementById("rollstring").value = ""
+function button_BACK() {
+    var formstring=document.getElementById("rollstring").value.slice(0,-1)
+    document.getElementById("rollstring").value = formstring
     regenerate_results();
 }
 
