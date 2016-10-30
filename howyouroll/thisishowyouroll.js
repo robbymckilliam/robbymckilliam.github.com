@@ -47,13 +47,17 @@ function process_all_dice_rolls(inputstring, required) {
     var bestroll = "";
     var bestprob = -1;
     for(var i in rolls) {
-	plot_success_prob(rolls[i]);
+
+	if( plothidden == false )
+	    plot_success_prob(rolls[i]);
+	
 	var succprob = process_multiple_rolls(rolls[i],required);
 	document.getElementById("diceresults").innerHTML += "<tr><td>" + rolls[i] + "</td><td>" + succprob + " </td></tr>";
 	if( succprob > bestprob ) {
 	    bestprob = succprob;
 	    bestroll = rolls[i];
 	}
+	
     }
     return [bestroll,  succprob];
 }
