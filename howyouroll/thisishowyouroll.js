@@ -295,9 +295,10 @@ function button_with() {
     document.getElementById("rollstring").value += " with ";
     regenerate_results();
 }
-function button_HELP() {
-    console.log("Not yet implemented");
-    //document.getElementById("rollstring").value += " help "
+function button_CLEAR() {
+    //console.log("Not yet implemented");
+    document.getElementById("rollstring").value = ""
+    regenerate_results();
 }
 function button_BACK() {
     var formstring=document.getElementById("rollstring").value.slice(0,-1)
